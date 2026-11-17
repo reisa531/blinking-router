@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#edf0f5"><title>Blinking · 网络控制台</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#edf0f5"><title>Blinking · 网络控制台</title><link rel="stylesheet" href="/style.css"><script src="/extensions.js" defer></script><script src="/app.js" defer></script></head>
 <body>
 <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
 <div class="shell">
@@ -13,11 +13,14 @@
 <button data-page="wans" class="nav"><span>⇄</span>WAN 与分流<span class="nav-count" id="wan-count">2</span></button>
 <button data-page="accounts" class="nav"><span>◎</span>校园网认证</button>
 <button data-page="dhcp" class="nav"><span>⊞</span>DHCP 与设备</button>
+<button data-page="routing" class="nav"><span>⌁</span>DNS 与路由</button>
+<button data-page="ddns" class="nav"><span>◌</span>动态 DNS</button>
+<button data-page="tunnels" class="nav"><span>⇢</span>内网穿透</button>
 <button data-page="services" class="nav"><span>▤</span>服务状态</button>
 </nav>
 <div class="nav-label">工作区</div>
 <nav aria-label="工作区导航"><button data-page="review" class="nav"><span>↗</span>配置审阅</button></nav>
-<div class="side-bottom"><div class="small-orb">✳</div><strong>每一条连接，都有归处。</strong><p>独立出口 · 声明式配置</p><div class="version">BLINKING OS <span>LOCAL / 0.1</span></div></div>
+<div class="side-bottom"><div class="small-orb">✳</div><strong>每一条连接，都有归处。</strong><p>独立出口 · 声明式配置</p><div class="version">BLINKING OS <span>LOCAL / 0.2</span></div></div>
 </aside>
 <main>
 <header class="topbar"><div class="breadcrumbs">工作区 <span>/</span> <strong id="crumb">网络概览</strong></div><div class="top-actions"><span class="pill"><span class="status-dot blue"></span>本地开发</span><button id="refresh" class="icon-button" aria-label="刷新配置">↻</button><span class="avatar">B</span></div></header>

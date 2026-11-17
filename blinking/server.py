@@ -8,11 +8,13 @@ from urllib.parse import urlparse
 from .config import ROOT, default_config, topology, diff, validate
 from .store import Store
 from .keepalive import transition
+from .status import collect
 
 
 class Server(ThreadingHTTPServer):
-    def __init__(self,address,store,proxy_port=None):
+    def __init__(self,address,store,proxy_port=None,manifest_dir="/etc/blinking-router",status_dir="/var/lib"):
         super().__init__(address,Handler)
+        self.manifest_dir=manifest_dir; self.status_dir=status_dir
         self.store=store; self.csrf=secrets.token_urlsafe(32); self.proxy_port=proxy_port
 
 
@@ -47,10 +49,11 @@ class Handler(BaseHTTPRequestHandler):
                             {'name':'campus-auth','state':'not-deployed','source':'generated'},
                             {'name':'systemd-networkd','state':'not-collected','source':'server'},
                             {'name':'nftables','state':'not-collected','source':'server'}]})
+        elif path=='/api/status': self.send(200,collect(self.server.manifest_dir,self.server.status_dir))
         elif path=='/api/export': self.send(200,self.server.store.export(),'application/gzip',True)
-        elif path in ('/','/app.js','/style.css'):
+        elif path in ('/','/app.js','/extensions.js','/style.css'):
             name='index.html' if path=='/' else path[1:]
-            kinds={'index.html':'text/html; charset=utf-8','app.js':'text/javascript; charset=utf-8','style.css':'text/css; charset=utf-8'}
+            kinds={'index.html':'text/html; charset=utf-8','app.js':'text/javascript; charset=utf-8','extensions.js':'text/javascript; charset=utf-8','style.css':'text/css; charset=utf-8'}
             self.send(200,(ROOT/'blinking/web'/name).read_bytes(),kinds[name])
         else: self.send(404,{'error':'未找到'})
     def do_POST(self):
@@ -65,6 +68,8 @@ class Handler(BaseHTTPRequestHandler):
                 c=validate(data); result={'valid':True,'topology':topology(c),'changes':diff(self.server.store.read(),c)}
             elif self.path=='/api/credential':
                 self.server.store.credential(data['account'],data['password']); result={'saved':True}
+            elif self.path=='/api/credential-delete':
+                self.server.store.delete_credential(data['account']);result={'deleted':True}
             elif self.path=='/api/simulate':
                 event=data['event']; k=self.server.store.read()['keepalive']
                 result={'simulated':True,'result':transition(data.get('previous',{}),event,int(time.time()),k['interval'],k['retryMax'],k['failureThreshold'])}
@@ -77,7 +82,8 @@ class Handler(BaseHTTPRequestHandler):
 def main():
     p=argparse.ArgumentParser(); p.add_argument('--port',type=int,default=8787); p.add_argument('--state-dir',default='.state')
     p.add_argument('--proxy-port',type=int)
-    args=p.parse_args(); server=Server(('127.0.0.1',args.port),Store(args.state_dir),args.proxy_port)
+    p.add_argument('--manifest-dir',default='/etc/blinking-router');p.add_argument('--status-dir',default='/var/lib')
+    args=p.parse_args(); server=Server(('127.0.0.1',args.port),Store(args.state_dir),args.proxy_port,args.manifest_dir,args.status_dir)
     print(f'Blinking local workbench: http://127.0.0.1:{server.server_port}',flush=True)
     server.serve_forever()
 

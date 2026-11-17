@@ -8,6 +8,7 @@ import threading
 from pathlib import Path
 from cryptography.fernet import Fernet
 from .config import ROOT, default_config, validate, diff
+from .extensions import secret_refs
 
 
 def atomic(path, content, mode=0o600):
@@ -51,9 +52,13 @@ class Store:
 
     def credential(self,account,password):
         with self.lock:
-            if account not in {a['id'] for a in self.read()['accounts']}: raise ValueError('请先保存账号')
+            if account not in secret_refs(self.read()): raise ValueError('请先保存账号或服务配置')
             if not isinstance(password,str) or not 1 <= len(password) <= 1024: raise ValueError('密码长度无效')
             vault = self._vault(); vault[account] = password; self._write_vault(vault)
+
+    def delete_credential(self,account):
+        with self.lock:
+            vault=self._vault();vault.pop(account,None);self._write_vault(vault)
 
     def save(self,data):
         with self.lock:
@@ -61,7 +66,7 @@ class Store:
             if config['revision'] != old['revision']: raise ValueError('配置已被另一页面修改，请刷新后重试')
             config['revision'] += 1
             atomic(self.path,json.dumps(config,ensure_ascii=False,indent=2).encode())
-            vault = {k:v for k,v in self._vault().items() if k in {a['id'] for a in config['accounts']}}
+            vault = {k:v for k,v in self._vault().items() if k in secret_refs(config)}
             self._write_vault(vault)
             return config
 
@@ -69,6 +74,7 @@ class Store:
         with self.lock:
             config = self.read()
             missing = [w['id'] for w in config['wans'] if w['enabled'] and w['keepalive'] and w['account'] not in self._vault()]
+            missing += [f'{kind}:{x["id"]}' for kind in ('ddns','tunnels') for x in config[kind] if x['enabled'] and f'{kind}:{x["id"]}' not in self._vault()]
             metadata = {'revision':config['revision'],'mode':'review-only','missingCredentials':missing,
                         'changes':diff(default_config(),config), 'secretsIncluded':False}
             files = {'router.json':json.dumps(config,ensure_ascii=False,indent=2).encode(),
@@ -76,7 +82,7 @@ class Store:
             for name in ['nix/module.nix','nix/package.nix','nix/net-loginer.nix','nix/patch-loginer.py','flake.nix','flake.lock','README.md']:
                 path = ROOT/name
                 if path.exists(): files[name] = path.read_bytes()
-            for directory in ['blinking','examples','tests']:
+            for directory in ['blinking','examples','tests','nix']:
                 for path in (ROOT/directory).rglob('*'):
                     if path.is_file() and '__pycache__' not in path.parts: files[str(path.relative_to(ROOT))] = path.read_bytes()
             out = io.BytesIO()

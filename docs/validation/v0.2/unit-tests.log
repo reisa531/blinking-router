@@ -1,0 +1,54 @@
+test_cross_origin_rejected (test_core.APITests.test_cross_origin_rejected) ... /nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+ok
+test_dns_rebinding_rejected (test_core.APITests.test_dns_rebinding_rejected) ... ok
+test_export_and_no_apply (test_core.APITests.test_export_and_no_apply) ... /nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+ok
+test_extension_api_save_token_and_clear (test_core.APITests.test_extension_api_save_token_and_clear) ... ok
+test_no_secret_in_api (test_core.APITests.test_no_secret_in_api) ... ok
+test_roundtrip_and_persistence (test_core.APITests.test_roundtrip_and_persistence) ... ok
+test_status_endpoint_and_extension_asset (test_core.APITests.test_status_endpoint_and_extension_asset) ... ok
+test_account_reference_and_enable (test_core.ConfigurationTests.test_account_reference_and_enable) ... ok
+test_address_pool_and_reservation (test_core.ConfigurationTests.test_address_pool_and_reservation) ... ok
+test_existing_topology (test_core.ConfigurationTests.test_existing_topology) ... ok
+test_nix_injection_rejected (test_core.ConfigurationTests.test_nix_injection_rejected) ... ok
+test_plaintext_password_not_config (test_core.ConfigurationTests.test_plaintext_password_not_config) ... ok
+test_reject_duplicate_mac (test_core.ConfigurationTests.test_reject_duplicate_mac) ... ok
+test_reject_multicast_mac (test_core.ConfigurationTests.test_reject_multicast_mac) ... ok
+test_removed_slot_does_not_renumber (test_core.ConfigurationTests.test_removed_slot_does_not_renumber) ... ok
+test_invalid_credentials_pause (test_core.HealthTests.test_invalid_credentials_pause) ... ok
+test_login_failure_keeps_specific_state (test_core.HealthTests.test_login_failure_keeps_specific_state) ... ok
+test_network_failure_does_not_send_credentials (test_core.HealthTests.test_network_failure_does_not_send_credentials) ... ok
+test_portal_login_requires_post_login_probe (test_core.HealthTests.test_portal_login_requires_post_login_probe) ... ok
+test_recovery_resets_backoff (test_core.HealthTests.test_recovery_resets_backoff) ... ok
+test_threshold_and_cap (test_core.HealthTests.test_threshold_and_cap) ... ok
+test_deleted_account_removes_secret (test_core.StoreTests.test_deleted_account_removes_secret) ... ok
+test_password_encryption_and_export (test_core.StoreTests.test_password_encryption_and_export) ... ok
+test_stale_save (test_core.StoreTests.test_stale_save) ... ok
+test_failures_write_status_without_secrets (test_extensions.DDNSTests.test_failures_write_status_without_secrets) ... /nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 401: 'secret-token'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'secret-token'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 429: 'secret-token'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 500: 'secret-token'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+ok
+test_http_transport_patch_and_redirect_block (test_extensions.DDNSTests.test_http_transport_patch_and_redirect_block) ... /nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 302: 'Found'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+ok
+test_provider_requests_and_public_detection (test_extensions.DDNSTests.test_provider_requests_and_public_detection) ... ok
+test_reject_provider_failure_and_bad_probe (test_extensions.DDNSTests.test_reject_provider_failure_and_bad_probe) ... ok
+test_duplicate_frp_binding_and_dns_loop (test_extensions.ExtensionTests.test_duplicate_frp_binding_and_dns_loop) ... ok
+test_family_and_route_boundaries (test_extensions.ExtensionTests.test_family_and_route_boundaries) ... ok
+test_invalid_provider_address_and_secret_rejected (test_extensions.ExtensionTests.test_invalid_provider_address_and_secret_rejected) ... ok
+test_old_configuration_migration (test_extensions.ExtensionTests.test_old_configuration_migration) ... ok
+test_token_lifecycle_and_export (test_extensions.ExtensionTests.test_token_lifecycle_and_export) ... ok
+test_bad_manifest_and_missing_tools_are_explicit (test_extensions.StatusTests.test_bad_manifest_and_missing_tools_are_explicit) ... ok
+test_manifest_units_ports_and_stale_ddns (test_extensions.StatusTests.test_manifest_units_ports_and_stale_ddns) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 4.319s
+
+OK

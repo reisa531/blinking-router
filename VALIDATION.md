@@ -1,21 +1,40 @@
 # Local validation — 2026-11-17
 
-The local milestone provides WAN count/enablement, fixed MAC and slot editing, campus account mapping, encrypted local credentials, keepalive policy and simulation, DHCP reservations, configuration review, and a Nix export. No SSH command or network mutation was performed on Blinking during implementation.
+Version 0.2 adds Cloudflare/Vercel DDNS, FRP TCP/UDP tunnels, declared local service/socket status, DNS forwarding/cache, and LAN static routes. The original two-WAN container/macvlan topology remains in the exported snapshot. Development made no SSH connection or network change to Blinking.
 
-## Passed checks
+## Checks
 
-- `nix flake check path:.`: all checks passed. Checks cover the Python unit/API suite, NixOS module evaluation, a patched authentication binary smoke test, and the isolated network VM.
-- 22 Python tests passed: stable addressing, MAC validation, account references, DHCP validation, stale-write rejection, encrypted credential persistence, export exclusion, local API round trip, CSRF/Host checks, health backoff, recovery, and credential-error pauses.
-- `nix build path:.#net-loginer`: built the pinned Rust client with ONNX Runtime and credential/logging patches.
-- The actual patched binary loaded its model and returned `waiting_address` for a nonexistent test interface. A synthetic password was absent from stdout/stderr; no portal request was made.
-- A NixOS QEMU/KVM test created a fake campus namespace, two real nspawn containers with macvlan interfaces, and a LAN client namespace. WANs obtained `10.20.0.10` and `10.20.0.11` from the fake upstream DHCP server. The LAN client obtained a `192.168.64.x` lease and gateway `192.168.64.1`. Routing marks 1 and 2 selected the expected /31 next hops. Both NAT paths reached the simulated external address `198.18.0.1`.
-- A review archive exported through Caddy was extracted and evaluated as a flake. Its `nixosModules.configured` read the edited root `router.json`; an enabled authentication account produced the expected worker unit, credential slots and `veth-wan0` declaration.
-- Browser checks passed: add/save/reload/remove a third WAN, add a synthetic account, map it to WAN0, enable keepalive, save, and remove the synthetic records. Password-error replay paused retries. Configuration validation succeeded. Desktop and 390px layouts were inspected; the final browser error log was empty.
+- `nix flake check path:. --print-build-logs` passed: Python unit/API checks, NixOS module evaluation, the patched authentication binary smoke check, and a QEMU/KVM network test.
+- 35 Python tests passed. Added coverage includes old-config migration, provider/address/route validation, duplicate FRP bindings, DNS recursion rejection, service-token save/clear/delete, secret exclusion from archives/API, Cloudflare/Vercel request payloads, IPv4/IPv6 handling, public-IP detection, HTTP errors, redirect rejection, sanitized status files, manifest unit selection, unreadable data and stale DDNS state.
+- A local HTTP fixture verified actual PATCH headers and JSON serialization. No real Cloudflare/Vercel account was contacted.
+- Nix module evaluation includes DDNS service/timer generation, runtime token loading and the extension manifest.
+- Both JavaScript files passed `node --check`.
 
-## Artifacts
+## Isolated network test
 
-Evidence is in `docs/validation/`: desktop/mobile screenshots and build/test logs. UI test data was removed; the local workspace retains the original two WANs, no account credentials, and revision 6.
+The VM creates a fake campus namespace, two real nspawn containers with macvlan interfaces, and a LAN client namespace. It verifies:
 
-## Deployment boundary
+1. DHCP addresses for both WANs, a LAN lease and the LAN default gateway.
+2. Stable route marks/tables and successful traffic through both WAN NAT paths.
+3. DNS forwarding to a local mock upstream and a cached reply after that upstream stops.
+4. A static route through a LAN next hop, actual ICMP traffic to its destination, and the nftables hash bypass rule.
+5. FRP TCP traffic to a local HTTP server and FRP UDP traffic to a DNS listener.
+6. TCP tunnel reconnection after the local FRP server stops and starts again.
+7. Generated service manifests and the installed panel CLI.
 
-The app binds to loopback through Caddy over HTTP for local development. It exports configuration but has no activation endpoint. Production login/TLS, live server service/port collection, dynamic health-based route removal, DDNS, tunnels, and timed deployment rollback remain separate milestones. Runtime credentials must be provisioned outside the Nix store before enabling authentication on a real host. Actual campus login and school session limits have not been tested.
+The fake upstream DNS process uses the explicit Nix package binary so it does not inherit the host's service wrapper configuration. Test credentials are synthetic. All network interfaces and tunnel peers stay inside the disposable VM.
+
+## Browser validation
+
+In Edge, added and saved a disabled DDNS record, FRP mapping and LAN route. A page reload preserved their values. The review page showed all three sections and configuration validation succeeded. The service page read actual local listening sockets and showed the missing-manifest empty state. A 390 × 844 viewport had no page-width overflow. Screenshots use synthetic `example.com` records and contain no tokens. Test entries were deleted after validation.
+
+The preview runs locally at `http://127.0.0.1:8789`; the standard packaged Caddy entry point remains `nix run path:.` on port 8787. The transient local development service is `blinking-dev-v02.service` in the user systemd instance and can be stopped with `systemctl --user stop blinking-dev-v02`.
+
+## Evidence
+
+- [Nix build and VM log](docs/validation/v0.2/nix-check.log)
+- [Unit/API log](docs/validation/v0.2/unit-tests.log)
+- [Desktop DDNS view](docs/validation/v0.2/ddns-desktop.jpg)
+- [Mobile DDNS view](docs/validation/v0.2/ddns-mobile.jpg)
+
+Earlier v0.1 validation artifacts remain in `docs/validation/`. Current capability and deployment boundaries are listed once in the README's Scope section. These results establish local functionality, not live provider authorization or campus login.

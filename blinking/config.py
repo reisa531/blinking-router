@@ -4,12 +4,13 @@ import ipaddress
 import json
 import re
 from pathlib import Path
+from .extensions import migrate, validate_extensions
 
 ROOT = Path(__file__).resolve().parent.parent
 
 
 def default_config():
-    return json.loads((ROOT / 'examples/router.json').read_text())
+    return migrate(json.loads((ROOT / 'examples/router.json').read_text()))
 
 
 def validate(data):
@@ -26,7 +27,8 @@ def validate(data):
         require(not int(value[:2], 16) & 1 and value.lower() != '00:00:00:00:00:00', 'MAC 必须是有效单播地址')
         return value.lower()
     require(isinstance(c, dict), '配置必须是对象')
-    require(set(c) == {'version','revision','network','keepalive','accounts','wans','dhcp'}, '配置字段不完整或包含未知字段')
+    migrate(c)
+    require(set(c) == {'version','revision','network','keepalive','accounts','wans','dhcp','ddns','tunnels','dns','routes'}, '配置字段不完整或包含未知字段')
     require(c['version'] == 1, '不支持的配置版本')
     integer(c['revision'], 0, 10**9, '配置版本')
     n = c['network']
@@ -86,6 +88,7 @@ def validate(data):
         require(ip in address.network and ip not in (address.ip,address.network.network_address,address.network.broadcast_address),'静态地址不在 LAN 可用范围')
         require(str(ip) not in ips and r['mac'] not in reserved_macs,'静态租约的 IP 或 MAC 重复')
         ips.add(str(ip)); reserved_macs.add(r['mac'])
+    validate_extensions(c)
     return c
 
 
@@ -98,7 +101,7 @@ def topology(c):
 
 def diff(old, new):
     changes = []
-    for key in ('network','keepalive','accounts','wans','dhcp'):
+    for key in ('network','keepalive','accounts','wans','dhcp','ddns','tunnels','dns','routes'):
         if old[key] != new[key]:
             changes.append({'section': key, 'before': old[key], 'after': new[key]})
     return changes

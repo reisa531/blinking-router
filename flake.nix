@@ -42,7 +42,9 @@
           system.stateVersion = "26.05";
           services.blinkingRouter = {
             enable = true;
-            settings = builtins.fromJSON (builtins.readFile ./examples/router.json);
+            settings = (builtins.fromJSON (builtins.readFile ./examples/router.json)) // {
+              ddns = [{ id = "test"; enabled = true; provider = "cloudflare"; name = "home.example.com"; zoneId = "zone"; recordId = "record"; teamId = ""; type = "A"; ttl = 300; interval = 300; source = "static"; address = "1.1.1.1"; proxied = false; }];
+            };
             package = panel;
             authPackage = loginer;
           };
@@ -89,6 +91,9 @@
           touch $out
         '';
         module = pkgs.writeText "blinking-module-evaluation.json" (builtins.toJSON {
+          ddnsService = eval.config.systemd.services.blinking-ddns-test.serviceConfig;
+          ddnsTimer = eval.config.systemd.timers.blinking-ddns-test.timerConfig;
+          extensionManifest = builtins.fromJSON eval.config.environment.etc."blinking-router/extensions.json".text;
           containers = builtins.attrNames eval.config.containers;
           rules = eval.config.networking.nftables.tables.multiwan.content;
           wan0 = eval.config.containers.wan0.macvlans;

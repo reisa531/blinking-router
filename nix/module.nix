@@ -20,6 +20,7 @@ let
                { Destination = "0.0.0.0/0"; Type = "unreachable"; Metric = 65535; Table = table w; } ];
   }) active);
 in {
+  imports = [ ./extensions.nix ];
   options.services.blinkingRouter = {
     enable = lib.mkEnableOption "declarative Blinking multi-WAN networking";
     settings = lib.mkOption { type = lib.types.attrs; description = "Validated router.json configuration."; };
@@ -48,7 +49,7 @@ in {
         dhcpServerConfig = {
           PoolOffset = c.dhcp.start; PoolSize = c.dhcp.size;
           DefaultLeaseTimeSec = c.dhcp.leaseSeconds; MaxLeaseTimeSec = lib.max 43200 c.dhcp.leaseSeconds;
-          DNS = c.dhcp.dns;
+          DNS = if (c.dns.enabled or false) then [ (builtins.head (lib.splitString "/" c.network.address)) ] else c.dhcp.dns;
         };
         dhcpServerStaticLeases = map (r: { MACAddress = r.mac; Address = r.address; }) c.dhcp.reservations;
         routingPolicyRules = map (w: {
@@ -62,6 +63,7 @@ in {
       content = ''
         chain prerouting {
           type filter hook prerouting priority mangle; policy accept;
+          ${lib.concatMapStringsSep "\n" (r: ''iifname "${c.network.lan}" ip daddr ${r.destination} meta mark set 0 return'') (builtins.filter (r: r.enabled) (c.routes or []))}
           iifname "${c.network.lan}" ct state new ct mark set jhash ip saddr . ip daddr mod ${toString (lib.length active)} map { ${lib.concatStringsSep ", " mapping} }
           iifname "${c.network.lan}" meta mark set ct mark
         }

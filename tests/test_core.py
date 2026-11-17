@@ -130,6 +130,22 @@ class APITests(unittest.TestCase):
         with self.request('/api/export') as r:self.assertEqual(r.headers['Content-Type'],'application/gzip')
         with self.assertRaises(urllib.error.HTTPError) as e:self.request('/api/apply',{})
         self.assertEqual(e.exception.code,404)
+    def test_extension_api_save_token_and_clear(self):
+        from test_extensions import record
+        c=self.server.store.read();c['ddns']=[record()]
+        with self.request('/api/config',c) as r:self.assertEqual(json.load(r)['config']['ddns'][0]['id'],'home')
+        with self.request('/api/credential',{'account':'ddns:home','password':'synthetic-api-token'}) as r:self.assertTrue(json.load(r)['saved'])
+        with self.request('/api/state') as r:
+            body=r.read();self.assertNotIn(b'synthetic-api-token',body)
+            self.assertTrue(json.loads(body)['credentials']['ddns:home'])
+        with self.request('/api/credential-delete',{'account':'ddns:home'}) as r:self.assertTrue(json.load(r)['deleted'])
+        self.assertNotIn('ddns:home',self.server.store.credentials_status())
+    def test_status_endpoint_and_extension_asset(self):
+        from unittest.mock import patch
+        with patch('blinking.status.command',return_value=None):
+            with self.request('/api/status') as r:self.assertEqual(json.load(r)['scope'],'local')
+        with self.request('/extensions.js') as r:self.assertIn(b'function ddns()',r.read())
+
     def test_no_secret_in_api(self):
         c=self.server.store.read();c['accounts']=[{'id':'a','name':'a','username':'a'}];self.server.store.save(c)
         self.server.store.credential('a','sensitive-test-value')
