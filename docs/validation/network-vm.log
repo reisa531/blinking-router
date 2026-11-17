@@ -1,0 +1,1420 @@
+these 20 derivations will be built:
+  /nix/store/0nblwhs8wqazf1qzimdn2lcgnqr1321x-unit-script-container_wan0-post-start.drv
+  /nix/store/jj69dh56czinnf483wlgxr3mhi9c4jff-container-init.drv
+  /nix/store/1kxnc7j85fa6af2bqm21kjdhs5hf2p2g-unit-script-container_wan0-start.drv
+  /nix/store/fsbh43lc1vqlr6v16fa1qj73dxm025xz-unit-script-container_wan0-pre-start.drv
+  /nix/store/92qvzphciy4kdg5dd6jn2jgj86gs6bii-unit-container-wan0.service.drv
+  /nix/store/1kmxnnjbwlda0bnfyi43qgg098br9ph3-unit-script-container_wan1-pre-start.drv
+  /nix/store/2bkbk8dwgcrj9h3ixfacns3lsv4dqxa5-container-init.drv
+  /nix/store/jirfci2c6svbdi25jx4qsi7vzk9k4ms2-unit-script-container_wan1-start.drv
+  /nix/store/wa91k9hafk2xjkakd2576vd7gxww772l-unit-script-container_wan1-post-start.drv
+  /nix/store/cfgl9fhy8vgc91n9cbj9z07mhlgihfzk-unit-container-wan1.service.drv
+  /nix/store/cnymvmhpsn1jfbp7ync87f5yq7jappbx-system-units.drv
+  /nix/store/m5ir3jaimawx246vwdqyjdw4gcjhkfmz-etc.drv
+  /nix/store/ajd2szj6xi68wy2fpvbm3nlxx7jlha8s-activate.drv
+  /nix/store/16p68ns8wph7b1gg6n4spz5fvahrzz1n-nixos-system-router-test.drv
+  /nix/store/f3ajy0a61y9606qm5qd1rawf2854y7ab-closure-info.drv
+  /nix/store/1wvzqr3ajlasfnc8bbsf6w9j43bas0yg-run-nixos-vm.drv
+  /nix/store/c38v2ny4yfrlwnrp4r8zg3sb4s1zs3yc-nixos-vm.drv
+  /nix/store/92vrs9c2vd2bpijb8dc8p04wdx26skqb-driverConfiguration.json.drv
+  /nix/store/q5kd4kv37cxxq2vb6aqzwwcx8lgcvrq2-nixos-test-driver-blinking-macvlan-routing.drv
+  /nix/store/vcdjlbmw4l8i7mcldnv34kqv81qcfxxp-vm-test-run-blinking-macvlan-routing.drv
+building '/nix/store/0nblwhs8wqazf1qzimdn2lcgnqr1321x-unit-script-container_wan0-post-start.drv'...
+building '/nix/store/2bkbk8dwgcrj9h3ixfacns3lsv4dqxa5-container-init.drv'...
+building '/nix/store/jj69dh56czinnf483wlgxr3mhi9c4jff-container-init.drv'...
+building '/nix/store/fsbh43lc1vqlr6v16fa1qj73dxm025xz-unit-script-container_wan0-pre-start.drv'...
+building '/nix/store/1kxnc7j85fa6af2bqm21kjdhs5hf2p2g-unit-script-container_wan0-start.drv'...
+building '/nix/store/wa91k9hafk2xjkakd2576vd7gxww772l-unit-script-container_wan1-post-start.drv'...
+building '/nix/store/92qvzphciy4kdg5dd6jn2jgj86gs6bii-unit-container-wan0.service.drv'...
+building '/nix/store/1kmxnnjbwlda0bnfyi43qgg098br9ph3-unit-script-container_wan1-pre-start.drv'...
+building '/nix/store/jirfci2c6svbdi25jx4qsi7vzk9k4ms2-unit-script-container_wan1-start.drv'...
+building '/nix/store/cfgl9fhy8vgc91n9cbj9z07mhlgihfzk-unit-container-wan1.service.drv'...
+building '/nix/store/cnymvmhpsn1jfbp7ync87f5yq7jappbx-system-units.drv'...
+building '/nix/store/m5ir3jaimawx246vwdqyjdw4gcjhkfmz-etc.drv'...
+building '/nix/store/ajd2szj6xi68wy2fpvbm3nlxx7jlha8s-activate.drv'...
+building '/nix/store/16p68ns8wph7b1gg6n4spz5fvahrzz1n-nixos-system-router-test.drv'...
+building '/nix/store/f3ajy0a61y9606qm5qd1rawf2854y7ab-closure-info.drv'...
+building '/nix/store/1wvzqr3ajlasfnc8bbsf6w9j43bas0yg-run-nixos-vm.drv'...
+building '/nix/store/c38v2ny4yfrlwnrp4r8zg3sb4s1zs3yc-nixos-vm.drv'...
+building '/nix/store/92vrs9c2vd2bpijb8dc8p04wdx26skqb-driverConfiguration.json.drv'...
+building '/nix/store/q5kd4kv37cxxq2vb6aqzwwcx8lgcvrq2-nixos-test-driver-blinking-macvlan-routing.drv'...
+nixos-test-driver-blinking-macvlan-routing> Running type check (enable/disable: config.skipTypeCheck)
+nixos-test-driver-blinking-macvlan-routing> See https://nixos.org/manual/nixos/stable/#test-opt-skipTypeCheck
+nixos-test-driver-blinking-macvlan-routing> All checks passed!
+nixos-test-driver-blinking-macvlan-routing> Linting test script (enable/disable: config.skipLint)
+nixos-test-driver-blinking-macvlan-routing> See https://nixos.org/manual/nixos/stable/#test-opt-skipLint
+nixos-test-driver-blinking-macvlan-routing> All checks passed!
+building '/nix/store/vcdjlbmw4l8i7mcldnv34kqv81qcfxxp-vm-test-run-blinking-macvlan-routing.drv'...
+vm-test-run-blinking-macvlan-routing> [0.00s] Machine state will be reset. To keep it, pass --keep-machine-state
+vm-test-run-blinking-macvlan-routing> [0.00s] start all VLans
+vm-test-run-blinking-macvlan-routing> [0.01s] (finished: start all VLans, in 0.00 seconds)
+vm-test-run-blinking-macvlan-routing> [0.01s] Test will time out and terminate in 3600.0 seconds
+vm-test-run-blinking-macvlan-routing> [0.01s] run the VM test script
+vm-test-run-blinking-macvlan-routing> additionally exposed symbols:
+vm-test-run-blinking-macvlan-routing>     router,
+vm-test-run-blinking-macvlan-routing>     vlan1,
+vm-test-run-blinking-macvlan-routing>     start_all, test_script, machines, machines_qemu, machines_nspawn, vlans, driver, log, os, create_machine, subtest, run_tests, join_all, retry, serial_stdout_off, serial_stdout_on, polling_condition, BaseMachine, QemuMachine, NspawnMachine, t, debug, dump_machine_ssh
+vm-test-run-blinking-macvlan-routing> [0.01s] start all VMs
+vm-test-run-blinking-macvlan-routing> [0.01s] router: starting vm
+vm-test-run-blinking-macvlan-routing> router # Disk image does not exist, creating the virtualisation disk image...
+vm-test-run-blinking-macvlan-routing> router # Formatting '/build/vm-state-router/tmp.7IE2SufeSZ', fmt=raw size=1073741824
+vm-test-run-blinking-macvlan-routing> router # mke2fs 1.47.4 (6-Mar-2025)
+vm-test-run-blinking-macvlan-routing> router # Discarding device blocks:      0/262144             done
+vm-test-run-blinking-macvlan-routing> [0.31s] router: QEMU running (pid 46)
+vm-test-run-blinking-macvlan-routing> router # Creating filesystem with 262144 4k blocks and 65536 inodes
+vm-test-run-blinking-macvlan-routing> [0.31s] (finished: start all VMs, in 0.30 seconds)
+vm-test-run-blinking-macvlan-routing> [0.31s] router: waiting for unit multi-user.target
+vm-test-run-blinking-macvlan-routing> router # Filesystem UUID: ab536fad-a8ac-4796-aebe-cc7b03dd4fde
+vm-test-run-blinking-macvlan-routing> [0.31s] router: waiting for the VM to finish booting
+vm-test-run-blinking-macvlan-routing> router # Superblock backups stored on blocks:
+vm-test-run-blinking-macvlan-routing> router #  32768, 98304, 163840, 229376
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # Allocating group tables: 0/8   done
+vm-test-run-blinking-macvlan-routing> router # Writing inode tables: 0/8   done
+vm-test-run-blinking-macvlan-routing> router # Creating journal (8192 blocks): done
+vm-test-run-blinking-macvlan-routing> router # Writing superblocks and filesystem accounting information: 0/8   done
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # Virtualisation disk image created.
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z WARN  virtiofsd::passthrough] Failed to open file handle for the root node: Operation not permitted (os error 1)
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z WARN  virtiofsd::passthrough] Failed to open file handle for the root node: Operation not permitted (os error 1)
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z WARN  virtiofsd::passthrough] File handles do not appear safe to use, disabling file handles altogether
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z WARN  virtiofsd::passthrough] File handles do not appear safe to use, disabling file handles altogether
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z WARN  virtiofsd::passthrough] Failed to open file handle for the root node: Operation not permitted (os error 1)
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z WARN  virtiofsd::passthrough] File handles do not appear safe to use, disabling file handles altogether
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z INFO  virtiofsd] Waiting for vhost-user socket connection...
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z INFO  virtiofsd] Waiting for vhost-user socket connection...
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z INFO  virtiofsd] Waiting for vhost-user socket connection...
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z INFO  virtiofsd] Client connected, servicing requests
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z INFO  virtiofsd] Client connected, servicing requests
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:29Z INFO  virtiofsd] Client connected, servicing requests
+vm-test-run-blinking-macvlan-routing> router # cSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # iPXE (http://ipxe.org) 00:02.0 CA00 PCI2.10 PnP PMM+5EFCC750+5EF2C750 CA00
+vm-test-run-blinking-macvlan-routing> router # Press Ctrl-B to configure iPXE (PCI 00:02.0)...
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # iPXE (http://ipxe.org) 00:05.0 CB00 PCI2.10 PnP PMM 5EFCC750 5EF2C750 CB00
+vm-test-run-blinking-macvlan-routing> router # Press Ctrl-B to configure iPXE (PCI 00:05.0)...
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # 
+vm-test-run-blinking-macvlan-routing> router # Booting from ROM...
+vm-test-run-blinking-macvlan-routing> router # Probing EDD (edd=off to disable)... oc[    0.000000] Linux version 6.18.63 (nixbld@localhost) (gcc (GCC) 16.2.0, GNU ld (GNU Binutils) 2.46) #1-NixOS SMP PREEMPT_DYNAMIC @1794334026
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] Command line: console=ttyS0 console=tty0 panic=1 boot.panic_on_fail clocksource=acpi_pm root=fstab loglevel=7 net.ifnames=0 lsm=landlock,yama,bpf init=/nix/store/cp18q4gd0a89i71dxpqjr986qllg0jz2-nixos-system-router-test/init regInfo=/nix/.ro-store/fr1vxkrp7bgf7lrxz6pvzk517vmfzyb5-closure-info/registration console=ttyS0,115200n8 console=tty0
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-provided physical RAM map:
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000005ffd7fff] usable
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x000000005ffd8000-0x000000005fffffff] reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x00000000b0000000-0x00000000bfffffff] reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] NX (Execute Disable) protection: active
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] APIC: Static calls initialized
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] SMBIOS 2.8 present.
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] DMI: QEMU Standard PC (Q35 + ICH9, 2009), BIOS rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org 04/01/2014
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] DMI: Memory slots populated: 1/1
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] Hypervisor detected: KVM
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] last_pfn = 0x5ffd8 max_arch_pfn = 0x400000000
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+vm-test-run-blinking-macvlan-routing> router # [    0.000000] kvm-clock: using sched offset of 320642561 cycles
+vm-test-run-blinking-macvlan-routing> router # [    0.000002] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+vm-test-run-blinking-macvlan-routing> router # [    0.000004] tsc: Detected 2419.200 MHz processor
+vm-test-run-blinking-macvlan-routing> router # [    0.000290] last_pfn = 0x5ffd8 max_arch_pfn = 0x400000000
+vm-test-run-blinking-macvlan-routing> router # [    0.000309] MTRR map: 4 entries (3 fixed + 1 variable; max 19), built from 8 variable MTRRs
+vm-test-run-blinking-macvlan-routing> router # [    0.000311] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT
+vm-test-run-blinking-macvlan-routing> router # [    0.005434] found SMP MP-table at [mem 0x000f5450-0x000f545f]
+vm-test-run-blinking-macvlan-routing> router # [    0.005446] Using GB pages for direct mapping
+vm-test-run-blinking-macvlan-routing> router # [    0.005499] RAMDISK: [mem 0x5e451000-0x5ffcffff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005503] ACPI: Early table checksum verification disabled
+vm-test-run-blinking-macvlan-routing> router # [    0.005505] ACPI: RSDP 0x00000000000F5270 000014 (v00 BOCHS )
+vm-test-run-blinking-macvlan-routing> router # [    0.005508] ACPI: RSDT 0x000000005FFE2422 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+vm-test-run-blinking-macvlan-routing> router # [    0.005513] ACPI: FACP 0x000000005FFE221A 0000F4 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+vm-test-run-blinking-macvlan-routing> router # [    0.005518] ACPI: DSDT 0x000000005FFE0040 0021DA (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+vm-test-run-blinking-macvlan-routing> router # [    0.005521] ACPI: FACS 0x000000005FFE0000 000040
+vm-test-run-blinking-macvlan-routing> router # [    0.005523] ACPI: APIC 0x000000005FFE230E 000078 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+vm-test-run-blinking-macvlan-routing> router # [    0.005525] ACPI: HPET 0x000000005FFE2386 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+vm-test-run-blinking-macvlan-routing> router # [    0.005527] ACPI: MCFG 0x000000005FFE23BE 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+vm-test-run-blinking-macvlan-routing> router # [    0.005529] ACPI: WAET 0x000000005FFE23FA 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+vm-test-run-blinking-macvlan-routing> router # [    0.005530] ACPI: Reserving FACP table memory at [mem 0x5ffe221a-0x5ffe230d]
+vm-test-run-blinking-macvlan-routing> router # [    0.005531] ACPI: Reserving DSDT table memory at [mem 0x5ffe0040-0x5ffe2219]
+vm-test-run-blinking-macvlan-routing> router # [    0.005532] ACPI: Reserving FACS table memory at [mem 0x5ffe0000-0x5ffe003f]
+vm-test-run-blinking-macvlan-routing> router # [    0.005532] ACPI: Reserving APIC table memory at [mem 0x5ffe230e-0x5ffe2385]
+vm-test-run-blinking-macvlan-routing> router # [    0.005532] ACPI: Reserving HPET table memory at [mem 0x5ffe2386-0x5ffe23bd]
+vm-test-run-blinking-macvlan-routing> router # [    0.005533] ACPI: Reserving MCFG table memory at [mem 0x5ffe23be-0x5ffe23f9]
+vm-test-run-blinking-macvlan-routing> router # [    0.005533] ACPI: Reserving WAET table memory at [mem 0x5ffe23fa-0x5ffe2421]
+vm-test-run-blinking-macvlan-routing> router # [    0.005701] No NUMA configuration found
+vm-test-run-blinking-macvlan-routing> router # [    0.005702] Faking a node at [mem 0x0000000000000000-0x000000005ffd7fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005703] NODE_DATA(0) allocated [mem 0x5ffd2780-0x5ffd7cff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005744] Zone ranges:
+vm-test-run-blinking-macvlan-routing> router # [    0.005744]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005745]   DMA32    [mem 0x0000000001000000-0x000000005ffd7fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005746]   Normal   empty
+vm-test-run-blinking-macvlan-routing> router # [    0.005747]   Device   empty
+vm-test-run-blinking-macvlan-routing> router # [    0.005747] Movable zone start for each node
+vm-test-run-blinking-macvlan-routing> router # [    0.005748] Early memory node ranges
+vm-test-run-blinking-macvlan-routing> router # [    0.005748]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005749]   node   0: [mem 0x0000000000100000-0x000000005ffd7fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005749] Initmem setup node 0 [mem 0x0000000000001000-0x000000005ffd7fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.005759] On node 0, zone DMA: 1 pages in unavailable ranges
+vm-test-run-blinking-macvlan-routing> router # [    0.005866] On node 0, zone DMA: 97 pages in unavailable ranges
+vm-test-run-blinking-macvlan-routing> router # [    0.017452] On node 0, zone DMA32: 40 pages in unavailable ranges
+vm-test-run-blinking-macvlan-routing> router # [    0.017835] ACPI: PM-Timer IO Port: 0x608
+vm-test-run-blinking-macvlan-routing> router # [    0.017846] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+vm-test-run-blinking-macvlan-routing> router # [    0.017870] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+vm-test-run-blinking-macvlan-routing> router # [    0.017872] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+vm-test-run-blinking-macvlan-routing> router # [    0.017874] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+vm-test-run-blinking-macvlan-routing> router # [    0.017874] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+vm-test-run-blinking-macvlan-routing> router # [    0.017875] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+vm-test-run-blinking-macvlan-routing> router # [    0.017875] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+vm-test-run-blinking-macvlan-routing> router # [    0.017879] ACPI: Using ACPI (MADT) for SMP configuration information
+vm-test-run-blinking-macvlan-routing> router # [    0.017880] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+vm-test-run-blinking-macvlan-routing> router # [    0.017883] TSC deadline timer available
+vm-test-run-blinking-macvlan-routing> router # [    0.017885] CPU topo: Max. logical packages:   1
+vm-test-run-blinking-macvlan-routing> router # [    0.017886] CPU topo: Max. logical dies:       1
+vm-test-run-blinking-macvlan-routing> router # [    0.017886] CPU topo: Max. dies per package:   1
+vm-test-run-blinking-macvlan-routing> router # [    0.017888] CPU topo: Max. threads per core:   1
+vm-test-run-blinking-macvlan-routing> router # [    0.017888] CPU topo: Num. cores per package:     1
+vm-test-run-blinking-macvlan-routing> router # [    0.017889] CPU topo: Num. threads per package:   1
+vm-test-run-blinking-macvlan-routing> router # [    0.017889] CPU topo: Allowing 1 present CPUs plus 0 hotplug CPUs
+vm-test-run-blinking-macvlan-routing> router # [    0.017902] kvm-guest: APIC: eoi() replaced with kvm_guest_apic_eoi_write()
+vm-test-run-blinking-macvlan-routing> router # [    0.017923] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.017924] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000fffff]
+vm-test-run-blinking-macvlan-routing> router # [    0.017925] [mem 0x60000000-0xafffffff] available for PCI devices
+vm-test-run-blinking-macvlan-routing> router # [    0.017926] Booting paravirtualized kernel on KVM
+vm-test-run-blinking-macvlan-routing> router # [    0.017928] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+vm-test-run-blinking-macvlan-routing> router # [    0.021860] setup_percpu: NR_CPUS:512 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+vm-test-run-blinking-macvlan-routing> router # [    0.022778] percpu: Embedded 98 pages/cpu s278528 r8192 d114688 u2097152
+vm-test-run-blinking-macvlan-routing> router # [    0.022805] kvm-guest: PV spinlocks disabled, single CPU
+vm-test-run-blinking-macvlan-routing> router # [    0.022807] Kernel command line: console=ttyS0 console=tty0 panic=1 boot.panic_on_fail clocksource=acpi_pm root=fstab loglevel=7 net.ifnames=0 lsm=landlock,yama,bpf init=/nix/store/cp18q4gd0a89i71dxpqjr986qllg0jz2-nixos-system-router-test/init regInfo=/nix/.ro-store/fr1vxkrp7bgf7lrxz6pvzk517vmfzyb5-closure-info/registration console=ttyS0,115200n8 console=tty0
+vm-test-run-blinking-macvlan-routing> router # [    0.022880] Unknown kernel command line parameters "regInfo=/nix/.ro-store/fr1vxkrp7bgf7lrxz6pvzk517vmfzyb5-closure-info/registration", will be passed to user space.
+vm-test-run-blinking-macvlan-routing> router # [    0.022889] random: crng init done
+vm-test-run-blinking-macvlan-routing> router # [    0.022889] printk: log buffer data + meta data: 1048576 + 3670016 = 4718592 bytes
+vm-test-run-blinking-macvlan-routing> router # [    0.023802] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.023844] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.023878] Fallback order for Node 0: 0
+vm-test-run-blinking-macvlan-routing> router # [    0.023880] Built 1 zonelists, mobility grouping on.  Total pages: 393078
+vm-test-run-blinking-macvlan-routing> router # [    0.023881] Policy zone: DMA32
+vm-test-run-blinking-macvlan-routing> router # [    0.024817] mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+vm-test-run-blinking-macvlan-routing> router # [    0.028641] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+vm-test-run-blinking-macvlan-routing> router # [    0.030119] allocated 3145728 bytes of page_ext
+vm-test-run-blinking-macvlan-routing> router # [    0.035906] ftrace: allocating 49019 entries in 192 pages
+vm-test-run-blinking-macvlan-routing> router # [    0.035908] ftrace: allocated 192 pages with 2 groups
+vm-test-run-blinking-macvlan-routing> router # [    0.036374] Dynamic Preempt: lazy
+vm-test-run-blinking-macvlan-routing> router # [    0.036446] rcu: Preemptible hierarchical RCU implementation.
+vm-test-run-blinking-macvlan-routing> router # [    0.036446] rcu:      RCU event tracing is enabled.
+vm-test-run-blinking-macvlan-routing> router # [    0.036447] rcu:      RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+vm-test-run-blinking-macvlan-routing> router # [    0.036448]   Trampoline variant of Tasks RCU enabled.
+vm-test-run-blinking-macvlan-routing> router # [    0.036448]   Rude variant of Tasks RCU enabled.
+vm-test-run-blinking-macvlan-routing> router # [    0.036448]   Tracing variant of Tasks RCU enabled.
+vm-test-run-blinking-macvlan-routing> router # [    0.036449] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+vm-test-run-blinking-macvlan-routing> router # [    0.036449] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+vm-test-run-blinking-macvlan-routing> router # [    0.036461] RCU Tasks: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1.
+vm-test-run-blinking-macvlan-routing> router # [    0.036463] RCU Tasks Rude: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1.
+vm-test-run-blinking-macvlan-routing> router # [    0.036463] RCU Tasks Trace: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1.
+vm-test-run-blinking-macvlan-routing> router # [    0.039705] NR_IRQS: 33024, nr_irqs: 256, preallocated irqs: 16
+vm-test-run-blinking-macvlan-routing> router # [    0.039913] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+vm-test-run-blinking-macvlan-routing> router # [    0.039918] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+vm-test-run-blinking-macvlan-routing> router # [    0.040012] kfence: initialized - using 2097152 bytes for 255 objects at 0x(____ptrval____)-0x(____ptrval____)
+vm-test-run-blinking-macvlan-routing> router # [    0.042540] Console: colour VGA+ 80x25
+vm-test-run-blinking-macvlan-routing> router # [    0.042542] printk: legacy console [tty0] enabled
+vm-test-run-blinking-macvlan-routing> router # [    0.060213] printk: legacy console [ttyS0] enabled
+vm-test-run-blinking-macvlan-routing> router # [    0.110052] ACPI: Core revision 20250807
+vm-test-run-blinking-macvlan-routing> router # [    0.110503] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+vm-test-run-blinking-macvlan-routing> router # [    0.111317] APIC: Switch to symmetric I/O mode setup
+vm-test-run-blinking-macvlan-routing> router # [    0.111874] x2apic enabled
+vm-test-run-blinking-macvlan-routing> router # [    0.112276] APIC: Switched APIC routing to: physical x2apic
+vm-test-run-blinking-macvlan-routing> router # [    0.113366] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+vm-test-run-blinking-macvlan-routing> router # [    0.113884] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22df1149949, max_idle_ns: 440795312789 ns
+vm-test-run-blinking-macvlan-routing> router # [    0.114780] Calibrating delay loop (skipped) preset value.. 4838.40 BogoMIPS (lpj=2419200)
+vm-test-run-blinking-macvlan-routing> router # [    0.115861] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+vm-test-run-blinking-macvlan-routing> router # [    0.116457] CET detected: Indirect Branch Tracking enabled
+vm-test-run-blinking-macvlan-routing> router # [    0.117142] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+vm-test-run-blinking-macvlan-routing> router # [    0.117624] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+vm-test-run-blinking-macvlan-routing> router # [    0.118148] mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto
+vm-test-run-blinking-macvlan-routing> router # [    0.118778] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+vm-test-run-blinking-macvlan-routing> router # [    0.119778] Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+vm-test-run-blinking-macvlan-routing> router # [    0.120265] Register File Data Sampling: Mitigation: Clear Register File
+vm-test-run-blinking-macvlan-routing> router # [    0.120778] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+vm-test-run-blinking-macvlan-routing> router # [    0.121489] Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+vm-test-run-blinking-macvlan-routing> router # [    0.122781] Spectre V2 : Enabling IBPB for BPF
+vm-test-run-blinking-macvlan-routing> router # [    0.123176] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+vm-test-run-blinking-macvlan-routing> router # [    0.123795] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+vm-test-run-blinking-macvlan-routing> router # [    0.124779] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+vm-test-run-blinking-macvlan-routing> router # [    0.125300] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+vm-test-run-blinking-macvlan-routing> router # [    0.125779] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+vm-test-run-blinking-macvlan-routing> router # [    0.126418] x86/fpu: Supporting XSAVE feature 0x800: 'Control-flow User registers'
+vm-test-run-blinking-macvlan-routing> router # [    0.127234] x86/fpu: Supporting XSAVE feature 0x1000: 'Control-flow Kernel registers (KVM only)'
+vm-test-run-blinking-macvlan-routing> router # [    0.127778] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+vm-test-run-blinking-macvlan-routing> router # [    0.128268] x86/fpu: xstate_offset[9]:  832, xstate_sizes[9]:    8
+vm-test-run-blinking-macvlan-routing> router # [    0.128778] x86/fpu: xstate_offset[11]:  840, xstate_sizes[11]:   16
+vm-test-run-blinking-macvlan-routing> router # [    0.129276] x86/fpu: xstate_offset[12]:  856, xstate_sizes[12]:   24
+vm-test-run-blinking-macvlan-routing> router # [    0.129778] x86/fpu: Enabled xstate features 0x1a07, context size is 880 bytes, using 'compacted' format.
+vm-test-run-blinking-macvlan-routing> router # [    0.143964] Freeing SMP alternatives memory: 48K
+vm-test-run-blinking-macvlan-routing> router # [    0.144374] pid_max: default: 32768 minimum: 301
+vm-test-run-blinking-macvlan-routing> router # [    0.144806] LSM: initializing lsm=lockdown,capability,landlock,yama,bpf,ima
+vm-test-run-blinking-macvlan-routing> router # [    0.145401] landlock: Up and running.
+vm-test-run-blinking-macvlan-routing> router # [    0.145711] Yama: becoming mindful.
+vm-test-run-blinking-macvlan-routing> router # [    0.146063] LSM support for eBPF active
+vm-test-run-blinking-macvlan-routing> router # [    0.146428] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.146792] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.148480] smpboot: CPU0: Intel(R) Core(TM) i7-14650HX (family: 0x6, model: 0xb7, stepping: 0x1)
+vm-test-run-blinking-macvlan-routing> router # [    0.148777] Performance Events: unsupported CPU family 6 model 183 no PMU driver, software events only.
+vm-test-run-blinking-macvlan-routing> router # [    0.149351] signal: max sigframe size: 3632
+vm-test-run-blinking-macvlan-routing> router # [    0.149733] rcu: Hierarchical SRCU implementation.
+vm-test-run-blinking-macvlan-routing> router # [    0.150054] rcu:      Max phase no-delay instances is 400.
+vm-test-run-blinking-macvlan-routing> router # [    0.150771] NMI watchdog: Perf NMI watchdog permanently disabled
+vm-test-run-blinking-macvlan-routing> router # [    0.151178] smp: Bringing up secondary CPUs ...
+vm-test-run-blinking-macvlan-routing> router # [    0.151572] smp: Brought up 1 node, 1 CPU
+vm-test-run-blinking-macvlan-routing> router # [    0.151780] smpboot: Total of 1 processors activated (4838.40 BogoMIPS)
+vm-test-run-blinking-macvlan-routing> router # [    0.152429] Memory: 1451572K/1572312K available (18206K kernel code, 5432K rwdata, 13728K rodata, 6720K init, 3992K bss, 112528K reserved, 0K cma-reserved)
+vm-test-run-blinking-macvlan-routing> router # [    0.152929] devtmpfs: initialized
+vm-test-run-blinking-macvlan-routing> router # [    0.153454] x86/mm: Memory block size: 128MB
+vm-test-run-blinking-macvlan-routing> router # [    0.154188] posixtimers hash table entries: 512 (order: 1, 8192 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.154808] futex hash table entries: 256 (16384 bytes on 1 NUMA nodes, total 16 KiB, linear).
+vm-test-run-blinking-macvlan-routing> router # [    0.155741] pinctrl core: initialized pinctrl subsystem
+vm-test-run-blinking-macvlan-routing> router # [    0.156315] PM: RTC time: 03:03:29, date: 2026-11-17
+vm-test-run-blinking-macvlan-routing> router # [    0.159305] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+vm-test-run-blinking-macvlan-routing> router # [    0.160045] DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+vm-test-run-blinking-macvlan-routing> router # [    0.160693] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+vm-test-run-blinking-macvlan-routing> router # [    0.161853] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+vm-test-run-blinking-macvlan-routing> router # [    0.162640] audit: initializing netlink subsys (disabled)
+vm-test-run-blinking-macvlan-routing> router # [    0.163032] thermal_sys: Registered thermal governor 'fair_share'
+vm-test-run-blinking-macvlan-routing> router # [    0.163034] thermal_sys: Registered thermal governor 'bang_bang'
+vm-test-run-blinking-macvlan-routing> router # [    0.163594] thermal_sys: Registered thermal governor 'step_wise'
+vm-test-run-blinking-macvlan-routing> router # [    0.164203] audit: type=2000 audit(1794884610.081:1): state=initialized audit_enabled=0 res=1
+vm-test-run-blinking-macvlan-routing> router # [    0.165535] thermal_sys: Registered thermal governor 'user_space'
+vm-test-run-blinking-macvlan-routing> router # [    0.165536] thermal_sys: Registered thermal governor 'power_allocator'
+vm-test-run-blinking-macvlan-routing> router # [    0.165796] cpuidle: using governor menu
+vm-test-run-blinking-macvlan-routing> router # [    0.166850] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+vm-test-run-blinking-macvlan-routing> router # [    0.167665] PCI: ECAM [mem 0xb0000000-0xbfffffff] (base 0xb0000000) for domain 0000 [bus 00-ff]
+vm-test-run-blinking-macvlan-routing> router # [    0.168368] PCI: ECAM [mem 0xb0000000-0xbfffffff] reserved as E820 entry
+vm-test-run-blinking-macvlan-routing> router # [    0.168789] PCI: Using configuration type 1 for base access
+vm-test-run-blinking-macvlan-routing> router # [    0.169384] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+vm-test-run-blinking-macvlan-routing> router # [    0.173838] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+vm-test-run-blinking-macvlan-routing> router # [    0.174387] HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+vm-test-run-blinking-macvlan-routing> router # [    0.174779] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+vm-test-run-blinking-macvlan-routing> router # [    0.175351] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+vm-test-run-blinking-macvlan-routing> router # [    0.184900] ACPI: Added _OSI(Module Device)
+vm-test-run-blinking-macvlan-routing> router # [    0.185314] ACPI: Added _OSI(Processor Device)
+vm-test-run-blinking-macvlan-routing> router # [    0.185687] ACPI: Added _OSI(Processor Aggregator Device)
+vm-test-run-blinking-macvlan-routing> router # [    0.189873] ACPI: 1 ACPI AML tables successfully acquired and loaded
+vm-test-run-blinking-macvlan-routing> router # [    0.190880] ACPI: Interpreter enabled
+vm-test-run-blinking-macvlan-routing> router # [    0.191277] ACPI: PM: (supports S0 S3 S4 S5)
+vm-test-run-blinking-macvlan-routing> router # [    0.191640] ACPI: Using IOAPIC for interrupt routing
+vm-test-run-blinking-macvlan-routing> router # [    0.191822] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+vm-test-run-blinking-macvlan-routing> router # [    0.192588] PCI: Using E820 reservations for host bridge windows
+vm-test-run-blinking-macvlan-routing> router # [    0.194857] ACPI: Enabled 2 GPEs in block 00 to 3F
+vm-test-run-blinking-macvlan-routing> router # [    0.196531] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+vm-test-run-blinking-macvlan-routing> router # [    0.198784] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+vm-test-run-blinking-macvlan-routing> router # [    0.199662] acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug LTR]
+vm-test-run-blinking-macvlan-routing> router # [    0.200357] acpi PNP0A08:00: _OSC: OS now controls [PME AER PCIeCapability]
+vm-test-run-blinking-macvlan-routing> router # [    0.202972] PCI host bridge to bus 0000:00
+vm-test-run-blinking-macvlan-routing> router # [    0.203429] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+vm-test-run-blinking-macvlan-routing> router # [    0.203781] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.204416] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.206223] pci_bus 0000:00: root bus resource [mem 0x60000000-0xafffffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.206780] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.207440] pci_bus 0000:00: root bus resource [mem 0x100000000-0x8ffffffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.207790] pci_bus 0000:00: root bus resource [bus 00-ff]
+vm-test-run-blinking-macvlan-routing> router # [    0.208306] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.209055] pci 0000:00:01.0: [1234:1111] type 00 class 0x030000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.210665] pci 0000:00:01.0: BAR 0 [mem 0xfd000000-0xfdffffff pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.211301] pci 0000:00:01.0: BAR 2 [mem 0xfebd0000-0xfebd0fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.211795] pci 0000:00:01.0: ROM [mem 0xfebc0000-0xfebcffff pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.212403] pci 0000:00:01.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+vm-test-run-blinking-macvlan-routing> router # [    0.213221] pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.214791] pci 0000:00:02.0: BAR 0 [io  0xc100-0xc11f]
+vm-test-run-blinking-macvlan-routing> router # [    0.215273] pci 0000:00:02.0: BAR 1 [mem 0xfebd1000-0xfebd1fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.215767] pci 0000:00:02.0: BAR 4 [mem 0xfe000000-0xfe003fff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.216253] pci 0000:00:02.0: ROM [mem 0xfeb40000-0xfeb7ffff pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.217126] pci 0000:00:03.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.219508] pci 0000:00:03.0: BAR 0 [io  0xc120-0xc13f]
+vm-test-run-blinking-macvlan-routing> router # [    0.219783] pci 0000:00:03.0: BAR 1 [mem 0xfebd2000-0xfebd2fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.220287] pci 0000:00:03.0: BAR 4 [mem 0xfe004000-0xfe007fff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.221140] pci 0000:00:04.0: [1af4:1001] type 00 class 0x010000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.223857] pci 0000:00:04.0: BAR 0 [io  0xc000-0xc07f]
+vm-test-run-blinking-macvlan-routing> router # [    0.224614] pci 0000:00:04.0: BAR 1 [mem 0xfebd3000-0xfebd3fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.224795] pci 0000:00:04.0: BAR 4 [mem 0xfe008000-0xfe00bfff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.225702] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.227369] pci 0000:00:05.0: BAR 0 [io  0xc140-0xc15f]
+vm-test-run-blinking-macvlan-routing> router # [    0.227785] pci 0000:00:05.0: BAR 1 [mem 0xfebd4000-0xfebd4fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.228282] pci 0000:00:05.0: BAR 4 [mem 0xfe00c000-0xfe00ffff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.228782] pci 0000:00:05.0: ROM [mem 0xfeb80000-0xfebbffff pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.229699] pci 0000:00:06.0: [1af4:1052] type 00 class 0x090000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.230787] pci 0000:00:06.0: BAR 1 [mem 0xfebd5000-0xfebd5fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.231318] pci 0000:00:06.0: BAR 4 [mem 0xfe010000-0xfe013fff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.232192] pci 0000:00:07.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.234260] pci 0000:00:07.0: BAR 1 [mem 0xfebd6000-0xfebd6fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.234797] pci 0000:00:07.0: BAR 4 [mem 0xfe014000-0xfe017fff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.235951] pci 0000:00:08.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.237594] pci 0000:00:08.0: BAR 1 [mem 0xfebd7000-0xfebd7fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.237805] pci 0000:00:08.0: BAR 4 [mem 0xfe018000-0xfe01bfff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.238881] pci 0000:00:09.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.240639] pci 0000:00:09.0: BAR 1 [mem 0xfebd8000-0xfebd8fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.241318] pci 0000:00:09.0: BAR 4 [mem 0xfe01c000-0xfe01ffff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.242180] pci 0000:00:0a.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.243686] pci 0000:00:0a.0: BAR 0 [io  0xc080-0xc0bf]
+vm-test-run-blinking-macvlan-routing> router # [    0.244138] pci 0000:00:0a.0: BAR 1 [mem 0xfebd9000-0xfebd9fff]
+vm-test-run-blinking-macvlan-routing> router # [    0.244628] pci 0000:00:0a.0: BAR 4 [mem 0xfe020000-0xfe023fff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.245125] pci 0000:00:0b.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.246787] pci 0000:00:0b.0: BAR 0 [io  0xc160-0xc17f]
+vm-test-run-blinking-macvlan-routing> router # [    0.247225] pci 0000:00:0b.0: BAR 1 [mem 0xfebda000-0xfebdafff]
+vm-test-run-blinking-macvlan-routing> router # [    0.247748] pci 0000:00:0b.0: BAR 4 [mem 0xfe024000-0xfe027fff 64bit pref]
+vm-test-run-blinking-macvlan-routing> router # [    0.248530] pci 0000:00:1d.0: [8086:2934] type 00 class 0x0c0300 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.249247] pci 0000:00:1d.0: BAR 4 [io  0xc180-0xc19f]
+vm-test-run-blinking-macvlan-routing> router # [    0.249802] pci 0000:00:1d.1: [8086:2935] type 00 class 0x0c0300 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.251898] pci 0000:00:1d.1: BAR 4 [io  0xc1a0-0xc1bf]
+vm-test-run-blinking-macvlan-routing> router # [    0.252474] pci 0000:00:1d.2: [8086:2936] type 00 class 0x0c0300 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.253277] pci 0000:00:1d.2: BAR 4 [io  0xc1c0-0xc1df]
+vm-test-run-blinking-macvlan-routing> router # [    0.253859] pci 0000:00:1d.7: [8086:293a] type 00 class 0x0c0320 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.254966] pci 0000:00:1d.7: BAR 0 [mem 0xfebdb000-0xfebdbfff]
+vm-test-run-blinking-macvlan-routing> router # [    0.255611] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.256531] pci 0000:00:1f.0: quirk: [io  0x0600-0x067f] claimed by ICH6 ACPI/GPIO/TCO
+vm-test-run-blinking-macvlan-routing> router # [    0.256915] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.259145] pci 0000:00:1f.2: BAR 4 [io  0xc1e0-0xc1ff]
+vm-test-run-blinking-macvlan-routing> router # [    0.259596] pci 0000:00:1f.2: BAR 5 [mem 0xfebdc000-0xfebdcfff]
+vm-test-run-blinking-macvlan-routing> router # [    0.260079] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500 conventional PCI endpoint
+vm-test-run-blinking-macvlan-routing> router # [    0.261375] pci 0000:00:1f.3: BAR 4 [io  0x0700-0x073f]
+vm-test-run-blinking-macvlan-routing> router # [    0.263878] ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+vm-test-run-blinking-macvlan-routing> router # [    0.264596] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+vm-test-run-blinking-macvlan-routing> router # [    0.265347] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+vm-test-run-blinking-macvlan-routing> router # [    0.265839] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+vm-test-run-blinking-macvlan-routing> router # [    0.266433] ACPI: PCI: Interrupt link LNKE configured for IRQ 10
+vm-test-run-blinking-macvlan-routing> router # [    0.266817] ACPI: PCI: Interrupt link LNKF configured for IRQ 10
+vm-test-run-blinking-macvlan-routing> router # [    0.267619] ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+vm-test-run-blinking-macvlan-routing> router # [    0.267834] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+vm-test-run-blinking-macvlan-routing> router # [    0.268374] ACPI: PCI: Interrupt link GSIA configured for IRQ 16
+vm-test-run-blinking-macvlan-routing> router # [    0.268787] ACPI: PCI: Interrupt link GSIB configured for IRQ 17
+vm-test-run-blinking-macvlan-routing> router # [    0.269285] ACPI: PCI: Interrupt link GSIC configured for IRQ 18
+vm-test-run-blinking-macvlan-routing> router # [    0.269793] ACPI: PCI: Interrupt link GSID configured for IRQ 19
+vm-test-run-blinking-macvlan-routing> router # [    0.270355] ACPI: PCI: Interrupt link GSIE configured for IRQ 20
+vm-test-run-blinking-macvlan-routing> router # [    0.270785] ACPI: PCI: Interrupt link GSIF configured for IRQ 21
+vm-test-run-blinking-macvlan-routing> router # [    0.271275] ACPI: PCI: Interrupt link GSIG configured for IRQ 22
+vm-test-run-blinking-macvlan-routing> router # [    0.271770] ACPI: PCI: Interrupt link GSIH configured for IRQ 23
+vm-test-run-blinking-macvlan-routing> router # [    0.272759] iommu: Default domain type: Translated
+vm-test-run-blinking-macvlan-routing> router # [    0.273080] iommu: DMA domain TLB invalidation policy: lazy mode
+vm-test-run-blinking-macvlan-routing> router # [    0.273721] ACPI: bus type USB registered
+vm-test-run-blinking-macvlan-routing> router # [    0.274060] usbcore: registered new interface driver usbfs
+vm-test-run-blinking-macvlan-routing> router # [    0.274519] usbcore: registered new interface driver hub
+vm-test-run-blinking-macvlan-routing> router # [    0.274783] usbcore: registered new device driver usb
+vm-test-run-blinking-macvlan-routing> router # [    0.275676] NetLabel: Initializing
+vm-test-run-blinking-macvlan-routing> router # [    0.276218] NetLabel:  domain hash size = 128
+vm-test-run-blinking-macvlan-routing> router # [    0.276782] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+vm-test-run-blinking-macvlan-routing> router # [    0.277321] NetLabel:  unlabeled traffic allowed by default
+vm-test-run-blinking-macvlan-routing> router # [    0.277799] PCI: Using ACPI for IRQ routing
+vm-test-run-blinking-macvlan-routing> router # [    0.309663] pci 0000:00:01.0: vgaarb: setting as boot VGA device
+vm-test-run-blinking-macvlan-routing> router # [    0.309777] pci 0000:00:01.0: vgaarb: bridge control possible
+vm-test-run-blinking-macvlan-routing> router # [    0.309777] pci 0000:00:01.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+vm-test-run-blinking-macvlan-routing> router # [    0.309780] vgaarb: loaded
+vm-test-run-blinking-macvlan-routing> router # [    0.310141] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+vm-test-run-blinking-macvlan-routing> router # [    0.310554] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+vm-test-run-blinking-macvlan-routing> router # [    0.313848] clocksource: Switched to clocksource kvm-clock
+vm-test-run-blinking-macvlan-routing> router # [    0.315968] VFS: Disk quotas dquot_6.6.0
+vm-test-run-blinking-macvlan-routing> router # [    0.316507] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+vm-test-run-blinking-macvlan-routing> router # [    0.317562] pnp: PnP ACPI init
+vm-test-run-blinking-macvlan-routing> router # [    0.318143] ACPI: IRQ 4 override to edge(!), high(!)
+vm-test-run-blinking-macvlan-routing> router # [    0.318746] system 00:04: [mem 0xb0000000-0xbfffffff window] has been reserved
+vm-test-run-blinking-macvlan-routing> router # [    0.319727] pnp: PnP ACPI: found 5 devices
+vm-test-run-blinking-macvlan-routing> router # [    0.325920] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+vm-test-run-blinking-macvlan-routing> router # [    0.327245] clocksource: Switched to clocksource acpi_pm
+vm-test-run-blinking-macvlan-routing> router # [    0.328221] NET: Registered PF_INET protocol family
+vm-test-run-blinking-macvlan-routing> router # [    0.329443] IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.346567] tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.347682] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.348653] TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.349623] TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.350482] TCP: Hash tables configured (established 16384 bind 16384)
+vm-test-run-blinking-macvlan-routing> router # [    0.351319] MPTCP token hash table entries: 2048 (order: 4, 49152 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.352166] UDP hash table entries: 1024 (order: 4, 65536 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.352857] UDP-Lite hash table entries: 1024 (order: 4, 65536 bytes, linear)
+vm-test-run-blinking-macvlan-routing> router # [    0.353630] NET: Registered PF_UNIX/PF_LOCAL protocol family
+vm-test-run-blinking-macvlan-routing> router # [    0.354232] NET: Registered PF_XDP protocol family
+vm-test-run-blinking-macvlan-routing> router # [    0.354704] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+vm-test-run-blinking-macvlan-routing> router # [    0.355295] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.355946] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.356618] pci_bus 0000:00: resource 7 [mem 0x60000000-0xafffffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.357268] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.357935] pci_bus 0000:00: resource 9 [mem 0x100000000-0x8ffffffff window]
+vm-test-run-blinking-macvlan-routing> router # [    0.358795] ACPI: \_SB_.GSIA: Enabled at IRQ 16
+vm-test-run-blinking-macvlan-routing> router # [    0.359894] ACPI: \_SB_.GSIB: Enabled at IRQ 17
+vm-test-run-blinking-macvlan-routing> router # [    0.361206] ACPI: \_SB_.GSIC: Enabled at IRQ 18
+vm-test-run-blinking-macvlan-routing> router # [    0.364025] ACPI: \_SB_.GSID: Enabled at IRQ 19
+vm-test-run-blinking-macvlan-routing> router # [    0.367172] PCI: CLS 0 bytes, default 64
+vm-test-run-blinking-macvlan-routing> router # [    0.368097] Trying to unpack rootfs image as initramfs...
+vm-test-run-blinking-macvlan-routing> router # [    0.373966] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22df1149949, max_idle_ns: 440795312789 ns
+vm-test-run-blinking-macvlan-routing> router # [    0.416228] Initialise system trusted keyrings
+vm-test-run-blinking-macvlan-routing> router # [    0.417512] Key type blacklist registered
+vm-test-run-blinking-macvlan-routing> router # [    0.422078] workingset: timestamp_bits=40 max_order=19 bucket_order=0
+vm-test-run-blinking-macvlan-routing> router # [    0.427056] integrity: Platform Keyring initialized
+vm-test-run-blinking-macvlan-routing> router # [    0.427995] integrity: Machine keyring initialized
+vm-test-run-blinking-macvlan-routing> router # [    0.457250] Key type asymmetric registered
+vm-test-run-blinking-macvlan-routing> router # [    0.464902] Asymmetric key parser 'x509' registered
+vm-test-run-blinking-macvlan-routing> router # [    0.466264] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+vm-test-run-blinking-macvlan-routing> router # [    0.472043] io scheduler mq-deadline registered
+vm-test-run-blinking-macvlan-routing> router # [    0.472940] io scheduler kyber registered
+vm-test-run-blinking-macvlan-routing> router # [    0.476335] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+vm-test-run-blinking-macvlan-routing> router # [    0.477507] 00:03: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+vm-test-run-blinking-macvlan-routing> router # [    0.482397] Linux agpgart interface v0.103
+vm-test-run-blinking-macvlan-routing> router # [    0.483239] ACPI: bus type drm_connector registered
+vm-test-run-blinking-macvlan-routing> router # [    0.486236] usbcore: registered new interface driver usbserial_generic
+vm-test-run-blinking-macvlan-routing> router # [    0.487060] usbserial: USB Serial support registered for generic
+vm-test-run-blinking-macvlan-routing> router # [    0.487696] intel_pstate: CPU model not supported
+vm-test-run-blinking-macvlan-routing> router # [    0.490970] drop_monitor: Initializing network drop monitor service
+vm-test-run-blinking-macvlan-routing> router # [    0.491643] NET: Registered PF_INET6 protocol family
+vm-test-run-blinking-macvlan-routing> router # [    0.492386] Segment Routing with IPv6
+vm-test-run-blinking-macvlan-routing> router # [    0.492741] In-situ OAM (IOAM) with IPv6
+vm-test-run-blinking-macvlan-routing> router # [    0.495082] IPI shorthand broadcast: enabled
+vm-test-run-blinking-macvlan-routing> router # [    0.496771] sched_clock: Marking stable (424009931, 71859310)->(526457930, -30588689)
+vm-test-run-blinking-macvlan-routing> router # [    0.501216] registered taskstats version 1
+vm-test-run-blinking-macvlan-routing> router # [    0.501951] Loading compiled-in X.509 certificates
+vm-test-run-blinking-macvlan-routing> router # [    0.510894] Demotion targets for Node 0: null
+vm-test-run-blinking-macvlan-routing> router # [    0.511574] Key type .fscrypt registered
+vm-test-run-blinking-macvlan-routing> router # [    0.513883] Key type fscrypt-provisioning registered
+vm-test-run-blinking-macvlan-routing> router # [    0.514430] ima: No TPM chip found, activating TPM-bypass!
+vm-test-run-blinking-macvlan-routing> router # [    0.515040] ima: Allocated hash algorithm: sha1
+vm-test-run-blinking-macvlan-routing> router # [    0.515685] ima: No architecture policies found
+vm-test-run-blinking-macvlan-routing> router # [    0.517985] PM:   Magic number: 2:138:58
+vm-test-run-blinking-macvlan-routing> router # [    0.519047] RAS: Correctable Errors collector initialized.
+vm-test-run-blinking-macvlan-routing> router # [    0.528954] clk: Disabling unused clocks
+vm-test-run-blinking-macvlan-routing> router # [    0.532899] PM: genpd: Disabling unused power domains
+vm-test-run-blinking-macvlan-routing> router # [    0.662759] Freeing initrd memory: 28156K
+vm-test-run-blinking-macvlan-routing> router # [    0.673065] Freeing unused decrypted memory: 2028K
+vm-test-run-blinking-macvlan-routing> router # [    0.675451] Freeing unused kernel image (initmem) memory: 6720K
+vm-test-run-blinking-macvlan-routing> router # [    0.676114] Write protecting the kernel read-only data: 32768k
+vm-test-run-blinking-macvlan-routing> router # [    0.676774] Freeing unused kernel image (text/rodata gap) memory: 224K
+vm-test-run-blinking-macvlan-routing> router # [    0.677628] Freeing unused kernel image (rodata/data gap) memory: 608K
+vm-test-run-blinking-macvlan-routing> router # [    0.687055] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+vm-test-run-blinking-macvlan-routing> router # [    0.688038] Run /init as init process
+vm-test-run-blinking-macvlan-routing> router # [    0.695980] autofs4: module verification failed: signature and/or required key missing - tainting kernel
+vm-test-run-blinking-macvlan-routing> router # [    0.697691] systemd[1]: Inserted module 'autofs4'
+vm-test-run-blinking-macvlan-routing> router # [    0.713001] fuse: init (API version 7.45)
+vm-test-run-blinking-macvlan-routing> router # [    0.717785] ACPI: \_SB_.GSIG: Enabled at IRQ 22
+vm-test-run-blinking-macvlan-routing> router # [    0.719019] ACPI: \_SB_.GSIH: Enabled at IRQ 23
+vm-test-run-blinking-macvlan-routing> router # [    0.720639] ACPI: \_SB_.GSIE: Enabled at IRQ 20
+vm-test-run-blinking-macvlan-routing> router # [    0.724168] ACPI: \_SB_.GSIF: Enabled at IRQ 21
+vm-test-run-blinking-macvlan-routing> router # [    0.729079] virtiofs virtio5: discovered new tag: nix-store
+vm-test-run-blinking-macvlan-routing> router # [    0.730050] virtiofs virtio5: virtio_fs_setup_dax: No cache capability
+vm-test-run-blinking-macvlan-routing> router # [    0.736495] virtiofs virtio6: discovered new tag: shared
+vm-test-run-blinking-macvlan-routing> router # [    0.737598] virtiofs virtio6: virtio_fs_setup_dax: No cache capability
+vm-test-run-blinking-macvlan-routing> router # [    0.742613] virtiofs virtio7: discovered new tag: xchg
+vm-test-run-blinking-macvlan-routing> router # [    0.743945] virtiofs virtio7: virtio_fs_setup_dax: No cache capability
+vm-test-run-blinking-macvlan-routing> router # [    0.782906] systemd[1]: Successfully made /usr/ read-only.
+vm-test-run-blinking-macvlan-routing> router # [    1.118045] systemd[1]: systemd 262 running in system mode (+PAM +AUDIT -SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK -BTF -XKBCOMMON +UTMP +LIBARCHIVE)
+vm-test-run-blinking-macvlan-routing> router # [    1.123255] systemd[1]: Detected virtualization kvm.
+vm-test-run-blinking-macvlan-routing> router # [    1.124322] systemd[1]: Detected architecture x86-64.
+vm-test-run-blinking-macvlan-routing> router # [    1.125355] systemd[1]: Running in initrd.
+vm-test-run-blinking-macvlan-routing> router # [    1.126492] systemd[1]: Initializing machine ID from random generator.
+vm-test-run-blinking-macvlan-routing> router # [    1.128736] systemd[1]: Hostname set to <router>.
+vm-test-run-blinking-macvlan-routing> router # [    1.182189] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+vm-test-run-blinking-macvlan-routing> router # [    1.200093] systemd[1]: Queued start job for default target Initrd Default Target.
+vm-test-run-blinking-macvlan-routing> router # [    1.202569] systemd[1]: Created slice Slice /system/modprobe.
+vm-test-run-blinking-macvlan-routing> router # [    1.203194] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [    1.204141] systemd[1]: Expecting device /dev/disk/by-label/nixos...
+vm-test-run-blinking-macvlan-routing> router # [    1.204688] systemd[1]: Reached target Path Units.
+vm-test-run-blinking-macvlan-routing> router # [    1.205129] systemd[1]: Reached target Slice Units.
+vm-test-run-blinking-macvlan-routing> router # [    1.205551] systemd[1]: Reached target Swaps.
+vm-test-run-blinking-macvlan-routing> router # [    1.205982] systemd[1]: Reached target Timer Units.
+vm-test-run-blinking-macvlan-routing> router # [    1.206471] systemd[1]: Listening on D-Bus System Message Bus Socket.
+vm-test-run-blinking-macvlan-routing> router # [    1.207089] systemd[1]: Listening on Journal Socket (/dev/log).
+vm-test-run-blinking-macvlan-routing> router # [    1.207626] systemd[1]: Listening on Journal Sockets.
+vm-test-run-blinking-macvlan-routing> router # [    1.208120] systemd[1]: TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-os
+vm-test-run-blinking-macvlan-routing> router # [    1.208942] systemd[1]: Listening on udev Kernel Socket.
+vm-test-run-blinking-macvlan-routing> router # [    1.209432] systemd[1]: Listening on udev Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    1.209903] systemd[1]: Reached target Socket Units.
+vm-test-run-blinking-macvlan-routing> router # [    1.210746] systemd[1]: Starting Create List of Static Device Nodes...
+vm-test-run-blinking-macvlan-routing> router # [    1.213924] systemd[1]: Starting Load Kernel Module configfs...
+vm-test-run-blinking-macvlan-routing> router # [    1.219246] systemd[1]: Starting Journal Service...
+vm-test-run-blinking-macvlan-routing> router # [    1.223175] systemd[1]: Starting Load Kernel Modules...
+vm-test-run-blinking-macvlan-routing> router # [    1.223636] systemd[1]: Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-os
+vm-test-run-blinking-macvlan-routing> router # [    1.228960] systemd[1]: Starting Coldplug All udev Devices...
+vm-test-run-blinking-macvlan-routing> router # [    1.246158] systemd-journald[65]: Collecting audit messages is disabled.
+vm-test-run-blinking-macvlan-routing> router # [    1.248907] systemd[1]: Finished Create List of Static Device Nodes.
+vm-test-run-blinking-macvlan-routing> router # [    1.249793] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    1.253949] systemd[1]: Finished Load Kernel Module configfs.
+vm-test-run-blinking-macvlan-routing> router # [    1.254682] systemd[1]: Kernel Configuration File System skipped, unmet condition check ConditionPathExists=/sys/kernel/config
+vm-test-run-blinking-macvlan-routing> router # [    1.260361] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+vm-test-run-blinking-macvlan-routing> router # [    1.262977] systemd[1]: Starting Create Static Device Nodes in /dev gracefully...
+vm-test-run-blinking-macvlan-routing> router # [    1.265942] device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+vm-test-run-blinking-macvlan-routing> router # [    1.287237] systemd[1]: Finished Create Static Device Nodes in /dev gracefully.
+vm-test-run-blinking-macvlan-routing> router # [    1.292110] systemd[1]: Starting Create Static Device Nodes in /dev...
+vm-test-run-blinking-macvlan-routing> router # [    1.302938] systemd[1]: Finished Load Kernel Modules.
+vm-test-run-blinking-macvlan-routing> router # [    1.310938] systemd[1]: Starting Apply Kernel Variables...
+vm-test-run-blinking-macvlan-routing> router # [    1.250133] systemd-modules-load[66]: Inserted module 'dm_mod'
+vm-test-run-blinking-macvlan-routing> router # [    1.322738] systemd[1]: Finished Create Static Device Nodes in /dev.
+vm-test-run-blinking-macvlan-routing> router # [    1.323364] systemd[1]: Started Journal Service.
+vm-test-run-blinking-macvlan-routing> router # [    1.252167] systemd-modules-load[66]: Inserted module 'virtio_balloon'
+vm-test-run-blinking-macvlan-routing> router # [    1.252701] systemd-modules-load[66]: Inserted module 'virtio_gpu'
+vm-test-run-blinking-macvlan-routing> router # [    1.255175] systemd[1]: Reached target Preparation for Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    1.255753] systemd[1]: Reached target Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    1.259059] systemd[1]: Starting Create System Files and Directories...
+vm-test-run-blinking-macvlan-routing> router # [    1.262224] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+vm-test-run-blinking-macvlan-routing> router # [    1.267978] systemd[1]: Finished Apply Kernel Variables.
+vm-test-run-blinking-macvlan-routing> router # [    1.285637] systemd[1]: Finished Create System Files and Directories.
+vm-test-run-blinking-macvlan-routing> router # [    1.302449] systemd[1]: Finished Coldplug All udev Devices.
+vm-test-run-blinking-macvlan-routing> router # [    1.305316] systemd-udevd[74]: Using default interface naming scheme 'v261'.
+vm-test-run-blinking-macvlan-routing> router # [    1.315409] systemd[1]: Started Rule-based Manager for Device Events and Files.
+vm-test-run-blinking-macvlan-routing> router # [    1.316074] systemd[1]: Reached target System Initialization.
+vm-test-run-blinking-macvlan-routing> router # [    1.316523] systemd[1]: Reached target Basic System.
+vm-test-run-blinking-macvlan-routing> router # [    1.494846] virtio_blk virtio2: 1/0/0 default/read/poll queues
+vm-test-run-blinking-macvlan-routing> router # [    1.495631] virtio_blk virtio2: [vda] 2097152 512-byte logical blocks (1.07 GB/1.00 GiB)
+vm-test-run-blinking-macvlan-routing> router # [    1.504573] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+vm-test-run-blinking-macvlan-routing> router # [    1.520312] serio: i8042 KBD port at 0x60,0x64 irq 1
+vm-test-run-blinking-macvlan-routing> router # [    1.520665] serio: i8042 AUX port at 0x60,0x64 irq 12
+vm-test-run-blinking-macvlan-routing> router # [    1.525292] ehci-pci 0000:00:1d.7: EHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.525759] ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 1
+vm-test-run-blinking-macvlan-routing> router # [    1.531885] ehci-pci 0000:00:1d.7: irq 19, io mem 0xfebdb000
+vm-test-run-blinking-macvlan-routing> router # [    1.537900] ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+vm-test-run-blinking-macvlan-routing> router # [    1.539320] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+vm-test-run-blinking-macvlan-routing> router # [    1.540353] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+vm-test-run-blinking-macvlan-routing> router # [    1.542239] usb usb1: Product: EHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.544901] usb usb1: Manufacturer: Linux 6.18.63 ehci_hcd
+vm-test-run-blinking-macvlan-routing> router # [    1.545690] usb usb1: SerialNumber: 0000:00:1d.7
+vm-test-run-blinking-macvlan-routing> router # [    1.546944] hub 1-0:1.0: USB hub found
+vm-test-run-blinking-macvlan-routing> router # [    1.548839] hub 1-0:1.0: 6 ports detected
+vm-test-run-blinking-macvlan-routing> router # [    1.551386] uhci_hcd 0000:00:1d.0: UHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.552072] uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 2
+vm-test-run-blinking-macvlan-routing> router # [    1.559692] uhci_hcd 0000:00:1d.0: detected 2 ports
+vm-test-run-blinking-macvlan-routing> router # [    1.561273] uhci_hcd 0000:00:1d.0: irq 16, io port 0x0000c180
+vm-test-run-blinking-macvlan-routing> router # [    1.572630] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.18
+vm-test-run-blinking-macvlan-routing> router # [    1.574887] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+vm-test-run-blinking-macvlan-routing> router # [    1.575659] usb usb2: Product: UHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.585731] usb usb2: Manufacturer: Linux 6.18.63 uhci_hcd
+vm-test-run-blinking-macvlan-routing> router # [    1.587617] usb usb2: SerialNumber: 0000:00:1d.0
+vm-test-run-blinking-macvlan-routing> router # [    1.518864] (udev-worker)[86]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> router # [    1.593658] hub 2-0:1.0: USB hub found
+vm-test-run-blinking-macvlan-routing> router # [    1.595165] hub 2-0:1.0: 2 ports detected
+vm-test-run-blinking-macvlan-routing> router # [    1.597434] SCSI subsystem initialized
+vm-test-run-blinking-macvlan-routing> router # [    1.526403] systemd[1]: Starting Virtual Console Setup...
+vm-test-run-blinking-macvlan-routing> router # [    1.530835] (udev-worker)[85]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> router # [    1.609614] uhci_hcd 0000:00:1d.1: UHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.546402] systemd-vconsole-setup[97]: Configuration of first virtual console was skipped, ignoring remaining ones.
+vm-test-run-blinking-macvlan-routing> router # [    1.551449] systemd[1]: Finished Virtual Console Setup.
+vm-test-run-blinking-macvlan-routing> router # [    1.629641] uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 3
+vm-test-run-blinking-macvlan-routing> router # [    1.631210] uhci_hcd 0000:00:1d.1: detected 2 ports
+vm-test-run-blinking-macvlan-routing> router # [    1.641649] uhci_hcd 0000:00:1d.1: irq 17, io port 0x0000c1a0
+vm-test-run-blinking-macvlan-routing> router # [    1.644222] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+vm-test-run-blinking-macvlan-routing> router # [    1.653546] usb usb3: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.18
+vm-test-run-blinking-macvlan-routing> router # [    1.665574] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+vm-test-run-blinking-macvlan-routing> router # [    1.597297] systemd[1]: Found device /dev/disk/by-label/nixos.
+vm-test-run-blinking-macvlan-routing> router # [    1.598935] systemd[1]: Reached target Initrd Root Device.
+vm-test-run-blinking-macvlan-routing> router # [    1.603375] systemd[1]: Starting File System Check on /dev/disk/by-label/nixos...
+vm-test-run-blinking-macvlan-routing> router # [    1.680900] usb usb3: Product: UHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.683920] usb usb3: Manufacturer: Linux 6.18.63 uhci_hcd
+vm-test-run-blinking-macvlan-routing> router # [    1.687908] usb usb3: SerialNumber: 0000:00:1d.1
+vm-test-run-blinking-macvlan-routing> router # [    1.695987] hub 3-0:1.0: USB hub found
+vm-test-run-blinking-macvlan-routing> router # [    1.699651] hub 3-0:1.0: 2 ports detected
+vm-test-run-blinking-macvlan-routing> router # [    1.710068] uhci_hcd 0000:00:1d.2: UHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.712949] uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 4
+vm-test-run-blinking-macvlan-routing> router # [    1.717002] uhci_hcd 0000:00:1d.2: detected 2 ports
+vm-test-run-blinking-macvlan-routing> router # [    1.721246] uhci_hcd 0000:00:1d.2: irq 18, io port 0x0000c1c0
+vm-test-run-blinking-macvlan-routing> router # [    1.733143] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.18
+vm-test-run-blinking-macvlan-routing> router # [    1.738156] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+vm-test-run-blinking-macvlan-routing> router # [    1.670857] systemd-fsck[104]: nixos: clean, 12/65536 files, 13019/262144 blocks
+vm-test-run-blinking-macvlan-routing> router # [    1.678747] systemd[1]: Finished File System Check on /dev/disk/by-label/nixos.
+vm-test-run-blinking-macvlan-routing> router # [    1.755514] usb usb4: Product: UHCI Host Controller
+vm-test-run-blinking-macvlan-routing> router # [    1.756787] usb usb4: Manufacturer: Linux 6.18.63 uhci_hcd
+vm-test-run-blinking-macvlan-routing> router # [    1.759994] usb usb4: SerialNumber: 0000:00:1d.2
+vm-test-run-blinking-macvlan-routing> router # [    1.762575] hub 4-0:1.0: USB hub found
+vm-test-run-blinking-macvlan-routing> router # [    1.765520] hub 4-0:1.0: 2 ports detected
+vm-test-run-blinking-macvlan-routing> router # [    1.791914] usb 1-1: new high-speed USB device number 2 using ehci-pci
+vm-test-run-blinking-macvlan-routing> router # [    1.836819] ahci 0000:00:1f.2: AHCI vers 0001.0000, 32 command slots, 1.5 Gbps, SATA mode
+vm-test-run-blinking-macvlan-routing> router # [    1.838311] ahci 0000:00:1f.2: 6/6 ports implemented (port mask 0x3f)
+vm-test-run-blinking-macvlan-routing> router # [    1.839893] ahci 0000:00:1f.2: flags: 64bit ncq only
+vm-test-run-blinking-macvlan-routing> router # [    1.844766] scsi host0: ahci
+vm-test-run-blinking-macvlan-routing> router # [    1.846468] scsi host1: ahci
+vm-test-run-blinking-macvlan-routing> router # [    1.848668] scsi host2: ahci
+vm-test-run-blinking-macvlan-routing> router # [    1.850708] scsi host3: ahci
+vm-test-run-blinking-macvlan-routing> router # [    1.852638] scsi host4: ahci
+vm-test-run-blinking-macvlan-routing> router # [    1.854362] scsi host5: ahci
+vm-test-run-blinking-macvlan-routing> router # [    1.856218] ata1: SATA max UDMA/133 abar m4096@0xfebdc000 port 0xfebdc100 irq 47 lpm-pol 1
+vm-test-run-blinking-macvlan-routing> router # [    1.858224] ata2: SATA max UDMA/133 abar m4096@0xfebdc000 port 0xfebdc180 irq 47 lpm-pol 1
+vm-test-run-blinking-macvlan-routing> router # [    1.859772] ata3: SATA max UDMA/133 abar m4096@0xfebdc000 port 0xfebdc200 irq 47 lpm-pol 1
+vm-test-run-blinking-macvlan-routing> router # [    1.861128] ata4: SATA max UDMA/133 abar m4096@0xfebdc000 port 0xfebdc280 irq 47 lpm-pol 1
+vm-test-run-blinking-macvlan-routing> router # [    1.862487] ata5: SATA max UDMA/133 abar m4096@0xfebdc000 port 0xfebdc300 irq 47 lpm-pol 1
+vm-test-run-blinking-macvlan-routing> router # [    1.864129] ata6: SATA max UDMA/133 abar m4096@0xfebdc000 port 0xfebdc380 irq 47 lpm-pol 1
+vm-test-run-blinking-macvlan-routing> router # [    1.922478] usb 1-1: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+vm-test-run-blinking-macvlan-routing> router # [    1.924178] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=10
+vm-test-run-blinking-macvlan-routing> router # [    1.926077] usb 1-1: Product: QEMU USB Tablet
+vm-test-run-blinking-macvlan-routing> router # [    1.926824] usb 1-1: Manufacturer: QEMU
+vm-test-run-blinking-macvlan-routing> router # [    1.927720] usb 1-1: SerialNumber: 28754-0000:00:1d.7-1
+vm-test-run-blinking-macvlan-routing> router # [    1.954255] hid: raw HID events driver (C) Jiri Kosina
+vm-test-run-blinking-macvlan-routing> router # [    2.175825] ata1: SATA link down (SStatus 0 SControl 300)
+vm-test-run-blinking-macvlan-routing> router # [    2.178447] ata2: SATA link down (SStatus 0 SControl 300)
+vm-test-run-blinking-macvlan-routing> router # [    2.179972] ata4: SATA link down (SStatus 0 SControl 300)
+vm-test-run-blinking-macvlan-routing> router # [    2.181834] ata6: SATA link down (SStatus 0 SControl 300)
+vm-test-run-blinking-macvlan-routing> router # [    2.183267] ata5: SATA link down (SStatus 0 SControl 300)
+vm-test-run-blinking-macvlan-routing> router # [    2.184702] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+vm-test-run-blinking-macvlan-routing> router # [    2.186426] ata3.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+vm-test-run-blinking-macvlan-routing> router # [    2.188181] ata3.00: applying bridge limits
+vm-test-run-blinking-macvlan-routing> router # [    2.189407] ata3.00: configured for UDMA/100
+vm-test-run-blinking-macvlan-routing> router # [    2.190921] scsi 2:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+vm-test-run-blinking-macvlan-routing> router # [    2.175944] systemd[1]: Mounting /sysroot...
+vm-test-run-blinking-macvlan-routing> router # [    2.259801] usbcore: registered new interface driver usbhid
+vm-test-run-blinking-macvlan-routing> router # [    2.266946] usbhid: USB HID core driver
+vm-test-run-blinking-macvlan-routing> router # [    2.305621] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:1d.7/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input2
+vm-test-run-blinking-macvlan-routing> router # [    2.312687] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:1d.7-1/input0
+vm-test-run-blinking-macvlan-routing> router # [    2.321167] sr 2:0:0:0: [sr0] scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+vm-test-run-blinking-macvlan-routing> router # [    2.336103] cdrom: Uniform CD-ROM driver Revision: 3.20
+vm-test-run-blinking-macvlan-routing> router # [    2.474106] EXT4-fs (vda): mounted filesystem ab536fad-a8ac-4796-aebe-cc7b03dd4fde r/w with ordered data mode. Quota mode: none.
+vm-test-run-blinking-macvlan-routing> router # [    2.407355] systemd[1]: Mounted /sysroot.
+vm-test-run-blinking-macvlan-routing> router # [    2.408212] systemd[1]: Reached target Initrd Root File System.
+vm-test-run-blinking-macvlan-routing> router # [    2.410680] systemd[1]: Mounting /sysroot/nix/.ro-store...
+vm-test-run-blinking-macvlan-routing> router # [    2.413509] systemd[1]: Mounting /sysroot/nix/.rw-store...
+vm-test-run-blinking-macvlan-routing> router # [    2.420721] systemd[1]: Mounting /sysroot/run...
+vm-test-run-blinking-macvlan-routing> router # [    2.423514] systemd[1]: Mounting /sysroot/tmp/shared...
+vm-test-run-blinking-macvlan-routing> router # [    2.430108] systemd[1]: Mounting /sysroot/tmp/xchg...
+vm-test-run-blinking-macvlan-routing> router # [    2.438248] systemd[1]: Starting Mountpoints Configured in the Real Root...
+vm-test-run-blinking-macvlan-routing> router # [    2.471671] systemd[1]: Mounted /sysroot/nix/.ro-store.
+vm-test-run-blinking-macvlan-routing> router # [    2.473759] systemd-sysroot-fstab-check[146]: /sysroot should be mounted in the initrd, will request daemon-reload.
+vm-test-run-blinking-macvlan-routing> router # [    2.482966] systemd[1]: Mounted /sysroot/nix/.rw-store.
+vm-test-run-blinking-macvlan-routing> router # [    2.486538] systemd[1]: Mounted /sysroot/run.
+vm-test-run-blinking-macvlan-routing> router # [    2.496115] systemd[1]: Mounted /sysroot/tmp/shared.
+vm-test-run-blinking-macvlan-routing> router # [    2.502248] systemd[1]: Mounted /sysroot/tmp/xchg.
+vm-test-run-blinking-macvlan-routing> router # [    2.506671] systemd[1]: Reload requested from client PID 146 ('systemd-sysroot') (unit initrd-parse-etc.service)...
+vm-test-run-blinking-macvlan-routing> router # [    2.508915] systemd[1]: Reloading...
+vm-test-run-blinking-macvlan-routing> router # [    2.607105] systemd[1]: Reloading finished in 96 ms.
+vm-test-run-blinking-macvlan-routing> router # [    2.615373] systemd-sysroot-fstab-check[146]: Requesting initrd-fs.target/start/replace...
+vm-test-run-blinking-macvlan-routing> router # [    2.619933] systemd-sysroot-fstab-check[146]: Requesting swap.target/start/replace...
+vm-test-run-blinking-macvlan-routing> router # [    2.624971] systemd[1]: Starting rw-sysroot-nix-store.service...
+vm-test-run-blinking-macvlan-routing> router # [    2.634155] systemd[1]: initrd-parse-etc.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    2.639154] systemd[1]: Finished Mountpoints Configured in the Real Root.
+vm-test-run-blinking-macvlan-routing> router # [    2.642742] systemd[1]: initrd-parse-etc.service: Triggering OnSuccess= dependencies.
+vm-test-run-blinking-macvlan-routing> router # [    2.659892] systemd[1]: rw-sysroot-nix-store.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    2.662635] systemd[1]: Finished rw-sysroot-nix-store.service.
+vm-test-run-blinking-macvlan-routing> router # [    3.176170] systemd[1]: Mounting /sysroot/nix/store...
+vm-test-run-blinking-macvlan-routing> router # [    3.229839] systemd[1]: Mounted /sysroot/nix/store.
+vm-test-run-blinking-macvlan-routing> router # [    3.233115] systemd[1]: Reached target Initrd File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    3.235644] systemd[1]: Starting Find NixOS closure...
+vm-test-run-blinking-macvlan-routing> router # [    3.239612] systemd[1]: Starting Create Volatile Files and Directories in the Real Root...
+vm-test-run-blinking-macvlan-routing> router # [    3.278935] systemd[1]: Finished Create Volatile Files and Directories in the Real Root.
+vm-test-run-blinking-macvlan-routing> router # [    3.282816] systemd[1]: sysroot-run-credentials-systemd\x2dtmpfiles\x2dsetup\x2dsysroot.service.mount: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.290513] systemd[1]: Finished Find NixOS closure.
+vm-test-run-blinking-macvlan-routing> router # [    3.293128] systemd[1]: Reached target Initrd Default Target.
+vm-test-run-blinking-macvlan-routing> router # [    3.295795] systemd[1]: Starting Cleaning Up and Shutting Down Daemons...
+vm-test-run-blinking-macvlan-routing> router # [    3.324682] systemd[1]: Stopped target Initrd Default Target.
+vm-test-run-blinking-macvlan-routing> router # [    3.327158] systemd[1]: Stopped target Basic System.
+vm-test-run-blinking-macvlan-routing> router # [    3.329408] systemd[1]: Stopped target Initrd Root Device.
+vm-test-run-blinking-macvlan-routing> router # [    3.330544] systemd[1]: Stopped target Path Units.
+vm-test-run-blinking-macvlan-routing> router # [    3.331476] systemd[1]: systemd-ask-password-console.path: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.334627] systemd[1]: Stopped Dispatch Password Requests to Console Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [    3.338637] systemd[1]: Stopped target Slice Units.
+vm-test-run-blinking-macvlan-routing> router # [    3.340361] systemd[1]: Stopped target Socket Units.
+vm-test-run-blinking-macvlan-routing> router # [    3.342163] systemd[1]: Stopped target System Initialization.
+vm-test-run-blinking-macvlan-routing> router # [    3.343082] systemd[1]: Stopped target Swaps.
+vm-test-run-blinking-macvlan-routing> router # [    3.343679] systemd[1]: Stopped target Timer Units.
+vm-test-run-blinking-macvlan-routing> router # [    3.347295] systemd[1]: dbus.socket: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.350153] systemd[1]: Closed D-Bus System Message Bus Socket.
+vm-test-run-blinking-macvlan-routing> router # [    3.352900] systemd[1]: initrd-find-nixos-closure.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.354466] systemd[1]: Stopped Find NixOS closure.
+vm-test-run-blinking-macvlan-routing> router # [    3.356851] systemd[1]: Starting rw-sysroot-nix-store.service...
+vm-test-run-blinking-macvlan-routing> router # [    3.360565] systemd[1]: systemd-sysctl.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.364442] systemd[1]: Stopped Apply Kernel Variables.
+vm-test-run-blinking-macvlan-routing> router # [    3.365798] systemd[1]: systemd-modules-load.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.367456] systemd[1]: Stopped Load Kernel Modules.
+vm-test-run-blinking-macvlan-routing> router # [    3.370387] systemd[1]: systemd-tmpfiles-setup-sysroot.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.375580] systemd[1]: Stopped Create Volatile Files and Directories in the Real Root.
+vm-test-run-blinking-macvlan-routing> router # [    3.381120] systemd[1]: systemd-tmpfiles-setup.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.382800] systemd[1]: Stopped Create System Files and Directories.
+vm-test-run-blinking-macvlan-routing> router # [    3.384785] systemd[1]: Stopped target Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    3.387400] systemd[1]: Stopped target Preparation for Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    3.389523] systemd[1]: systemd-udev-trigger.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.393364] systemd[1]: Stopped Coldplug All udev Devices.
+vm-test-run-blinking-macvlan-routing> router # [    3.395250] systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+vm-test-run-blinking-macvlan-routing> router # [    3.397785] systemd[1]: systemd-vconsole-setup.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.400252] systemd[1]: Stopped Virtual Console Setup.
+vm-test-run-blinking-macvlan-routing> router # [    3.420425] systemd[1]: initrd-cleanup.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.424128] systemd[1]: Finished Cleaning Up and Shutting Down Daemons.
+vm-test-run-blinking-macvlan-routing> router # [    3.425577] systemd[1]: systemd-udevd.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.430173] systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+vm-test-run-blinking-macvlan-routing> router # [    3.436689] systemd[1]: rw-sysroot-nix-store.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.438957] systemd[1]: Finished rw-sysroot-nix-store.service.
+vm-test-run-blinking-macvlan-routing> router # [    3.443123] systemd[1]: systemd-udevd-varlink.socket: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.447167] systemd[1]: Closed udev Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    3.449107] systemd[1]: Starting Cleanup udev Database...
+vm-test-run-blinking-macvlan-routing> router # [    3.450575] systemd[1]: systemd-tmpfiles-setup-dev.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.454124] systemd[1]: Stopped Create Static Device Nodes in /dev.
+vm-test-run-blinking-macvlan-routing> router # [    3.455809] systemd[1]: systemd-tmpfiles-setup-dev-early.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.459144] systemd[1]: Stopped Create Static Device Nodes in /dev gracefully.
+vm-test-run-blinking-macvlan-routing> router # [    3.460640] systemd[1]: kmod-static-nodes.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.462274] systemd[1]: Stopped Create List of Static Device Nodes.
+vm-test-run-blinking-macvlan-routing> router # [    3.479756] systemd[1]: initrd-udevadm-cleanup-db.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    3.482181] systemd[1]: Finished Cleanup udev Database.
+vm-test-run-blinking-macvlan-routing> router # [    3.482955] systemd[1]: Reached target Switch Root.
+vm-test-run-blinking-macvlan-routing> router # [    3.484628] systemd[1]: Starting NixOS Activation...
+vm-test-run-blinking-macvlan-routing> router # [    3.577282] initrd-nixos-activation-start[189]: booting system configuration /nix/store/cp18q4gd0a89i71dxpqjr986qllg0jz2-nixos-system-router-test
+vm-test-run-blinking-macvlan-routing> router # [    3.613124] initrd-nixos-activation-start[189]: running activation script...
+vm-test-run-blinking-macvlan-routing> router # [    3.870647] initrd-nixos-activation-start[212]: setting up /etc...
+vm-test-run-blinking-macvlan-routing> router # [    4.046163] systemd[1]: initrd-nixos-activation.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    4.049109] systemd[1]: Finished NixOS Activation.
+vm-test-run-blinking-macvlan-routing> router # [    4.052358] systemd[1]: Starting Switch Root...
+vm-test-run-blinking-macvlan-routing> router # [    4.074327] systemd[1]: Switching root.
+vm-test-run-blinking-macvlan-routing> router # [    4.275921] systemd-journald[65]: Received SIGTERM from PID 1 (systemd).
+vm-test-run-blinking-macvlan-routing> router # [    4.334476] NET: Registered PF_VSOCK protocol family
+vm-test-run-blinking-macvlan-routing> router # [    4.708561] systemd[1]: systemd 262 running in system mode (+PAM +AUDIT -SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK -BTF -XKBCOMMON +UTMP +LIBARCHIVE)
+vm-test-run-blinking-macvlan-routing> router # [    4.714386] systemd[1]: Detected virtualization kvm.
+vm-test-run-blinking-macvlan-routing> router # [    4.715448] systemd[1]: Detected architecture x86-64.
+vm-test-run-blinking-macvlan-routing> router # [    4.716682] systemd[1]: Detected first boot.
+vm-test-run-blinking-macvlan-routing> router # [    4.720020] systemd[1]: Initializing machine ID from random generator.
+vm-test-run-blinking-macvlan-routing> router # [    4.825913] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+vm-test-run-blinking-macvlan-routing> router # [    4.944817] systemd[1]: Applying preset policy.
+vm-test-run-blinking-macvlan-routing> router # [    5.073302] systemd[1]: Populated /etc with preset unit settings.
+vm-test-run-blinking-macvlan-routing> router # [    5.308664] systemd[1]: initrd-switch-root.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    5.309793] systemd[1]: Stopped initrd-switch-root.service.
+vm-test-run-blinking-macvlan-routing> router # [    5.311142] systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+vm-test-run-blinking-macvlan-routing> router # [    5.312430] systemd[1]: Created slice Slice /system/getty.
+vm-test-run-blinking-macvlan-routing> router # [    5.313248] systemd[1]: Created slice User and Session Slice.
+vm-test-run-blinking-macvlan-routing> router # [    5.314179] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [    5.314894] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [    5.315476] systemd[1]: Expecting device /dev/hvc0...
+vm-test-run-blinking-macvlan-routing> router # [    5.315892] systemd[1]: Expecting device /dev/ttyS0...
+vm-test-run-blinking-macvlan-routing> router # [    5.316291] systemd[1]: Reached target Local Encrypted Volumes.
+vm-test-run-blinking-macvlan-routing> router # [    5.316743] systemd[1]: Stopped target initrd-fs.target.
+vm-test-run-blinking-macvlan-routing> router # [    5.317147] systemd[1]: Stopped target initrd-root-fs.target.
+vm-test-run-blinking-macvlan-routing> router # [    5.317524] systemd[1]: Stopped target initrd-switch-root.target.
+vm-test-run-blinking-macvlan-routing> router # [    5.317956] systemd[1]: Reached target Virtual Machines and Containers.
+vm-test-run-blinking-macvlan-routing> router # [    5.318431] systemd[1]: Reached target Path Units.
+vm-test-run-blinking-macvlan-routing> router # [    5.318851] systemd[1]: Reached target Remote File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    5.319288] systemd[1]: Reached target Slice Units.
+vm-test-run-blinking-macvlan-routing> router # [    5.319681] systemd[1]: Reached target Swaps.
+vm-test-run-blinking-macvlan-routing> router # [    5.320797] systemd[1]: Listening on Query the User Interactively for a Password.
+vm-test-run-blinking-macvlan-routing> router # [    5.322465] systemd[1]: Listening on Process Core Dump Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.323709] systemd[1]: Listening on Credential Encryption/Decryption.
+vm-test-run-blinking-macvlan-routing> router # [    5.325168] systemd[1]: Listening on Factory Reset Management.
+vm-test-run-blinking-macvlan-routing> router # [    5.326022] systemd[1]: Listening on Hostname Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.329607] systemd[1]: Starting Journal Log Access Socket...
+vm-test-run-blinking-macvlan-routing> router # [    5.331225] systemd[1]: Listening on Journal Audit Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.345473] systemd[1]: Listening on Console Output Muting Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.347669] systemd[1]: Listening on Network Management Metrics Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.349576] systemd[1]: Listening on Network Management Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.351420] systemd[1]: Listening on Network Management Netlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.353315] systemd[1]: Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.354964] systemd[1]: TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-os
+vm-test-run-blinking-macvlan-routing> router # [    5.357249] systemd[1]: Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki
+vm-test-run-blinking-macvlan-routing> router # [    5.363165] systemd[1]: Listening on Disk Repartitioning Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.365009] systemd[1]: Listening on Resolve Monitor Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.366885] systemd[1]: Listening on Resolve Service Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.368524] systemd[1]: Listening on udev Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.372647] systemd[1]: Mounting Huge Pages File System...
+vm-test-run-blinking-macvlan-routing> router # [    5.378589] systemd[1]: Mounting POSIX Message Queue File System...
+vm-test-run-blinking-macvlan-routing> router # [    5.388463] systemd[1]: Mounting Kernel Debug File System...
+vm-test-run-blinking-macvlan-routing> router # [    5.402765] systemd[1]: Mounting Kernel Trace File System...
+vm-test-run-blinking-macvlan-routing> router # [    5.415023] systemd[1]: Starting Create List of Static Device Nodes...
+vm-test-run-blinking-macvlan-routing> router # [    5.443013] systemd[1]: Starting Load Kernel Module configfs...
+vm-test-run-blinking-macvlan-routing> router # [    5.458036] systemd[1]: Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+vm-test-run-blinking-macvlan-routing> router # [    5.479157] systemd[1]: Load Kernel Module efi_pstore skipped, unmet condition check ConditionKernelModuleLoaded=!efi_pstore
+vm-test-run-blinking-macvlan-routing> router # [    5.497146] systemd[1]: Load Kernel Module fuse skipped, unmet condition check ConditionKernelModuleLoaded=!fuse
+vm-test-run-blinking-macvlan-routing> router # [    5.516633] systemd[1]: Mounting FUSE Control File System...
+vm-test-run-blinking-macvlan-routing> router # [    5.525093] systemd[1]: Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67
+vm-test-run-blinking-macvlan-routing> router # [    5.544786] systemd[1]: Starting Journal Service...
+vm-test-run-blinking-macvlan-routing> router # [    5.547507] systemd[1]: Starting Load Kernel Modules...
+vm-test-run-blinking-macvlan-routing> router # [    5.554284] systemd[1]: Starting Userspace Out-Of-Memory (OOM) Killer...
+vm-test-run-blinking-macvlan-routing> router # [    5.568102] systemd[1]: Starting Remount Root and Kernel File Systems...
+vm-test-run-blinking-macvlan-routing> router # [    5.594113] systemd[1]: Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-os
+vm-test-run-blinking-macvlan-routing> router # [    5.627021] systemd[1]: Starting Coldplug All udev Devices...
+vm-test-run-blinking-macvlan-routing> router # [    5.642736] systemd[1]: Listening on Journal Log Access Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.650389] systemd[1]: Mounted Huge Pages File System.
+vm-test-run-blinking-macvlan-routing> router # [    5.654957] systemd[1]: Mounted POSIX Message Queue File System.
+vm-test-run-blinking-macvlan-routing> router # [    5.659792] systemd[1]: Mounted Kernel Debug File System.
+vm-test-run-blinking-macvlan-routing> router # [    5.674416] systemd[1]: Mounted Kernel Trace File System.
+vm-test-run-blinking-macvlan-routing> router # [    5.700207] systemd[1]: Finished Create List of Static Device Nodes.
+vm-test-run-blinking-macvlan-routing> router # [    5.706585] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    5.714366] systemd-journald[283]: Collecting audit messages is enabled.
+vm-test-run-blinking-macvlan-routing> router # [    5.725513] systemd[1]: Finished Load Kernel Module configfs.
+vm-test-run-blinking-macvlan-routing> router # [    5.732316] systemd[1]: Mounted FUSE Control File System.
+vm-test-run-blinking-macvlan-routing> router # [    5.755987] systemd[1]: Mounting Kernel Configuration File System...
+vm-test-run-blinking-macvlan-routing> router # [    5.757796] EXT4-fs (vda): re-mounted ab536fad-a8ac-4796-aebe-cc7b03dd4fde.
+vm-test-run-blinking-macvlan-routing> router # [    5.705489] systemd[1]: Queued start job for default target Multi-User System.
+vm-test-run-blinking-macvlan-routing> router # [    5.707699] systemd[1]: systemd-journald.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    5.782661] systemd[1]: Starting Create Static Device Nodes in /dev gracefully...
+vm-test-run-blinking-macvlan-routing> router # [    5.797213] systemd[1]: Started Journal Service.
+vm-test-run-blinking-macvlan-routing> router # [    5.812948] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+vm-test-run-blinking-macvlan-routing> router # [    5.757214] systemd[1]: Finished Remount Root and Kernel File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    5.758968] systemd-modules-load[284]: Inserted module 'bridge'
+vm-test-run-blinking-macvlan-routing> router # [    5.858111] loop: module loaded
+vm-test-run-blinking-macvlan-routing> router # [    5.789137] systemd-modules-load[284]: Inserted module 'loop'
+vm-test-run-blinking-macvlan-routing> router # [    5.798139] systemd[1]: Listening on Disk Image Download Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [    5.798975] systemd-modules-load[284]: Inserted module 'macvlan'
+vm-test-run-blinking-macvlan-routing> router # [    5.803906] systemd[1]: Starting Flush Journal to Persistent Storage...
+vm-test-run-blinking-macvlan-routing> router # [    5.804714] systemd[1]: Platform Persistent Storage Archival skipped, unmet condition check ConditionDirectoryNotEmpty=/sys/fs/pstore
+vm-test-run-blinking-macvlan-routing> router # [    5.808462] systemd[1]: Starting Load/Save OS Random Seed...
+vm-test-run-blinking-macvlan-routing> router # [    5.809431] systemd[1]: TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-os
+vm-test-run-blinking-macvlan-routing> router # [    5.812589] systemd-modules-load[284]: Inserted module 'tap'
+vm-test-run-blinking-macvlan-routing> router # [    5.822363] systemd-oomd[285]: No swap; memory pressure usage will be degraded
+vm-test-run-blinking-macvlan-routing> router # [    5.907806] tun: Universal TUN/TAP device driver, 1.6
+vm-test-run-blinking-macvlan-routing> router # [    5.845714] systemd[1]: Started Userspace Out-Of-Memory (OOM) Killer.
+vm-test-run-blinking-macvlan-routing> router # [    5.849681] systemd-modules-load[284]: Inserted module 'tun'
+vm-test-run-blinking-macvlan-routing> router # [    5.858215] systemd[1]: Finished Load Kernel Modules.
+vm-test-run-blinking-macvlan-routing> router # [    5.867422] systemd[1]: Starting Apply Kernel Variables...
+vm-test-run-blinking-macvlan-routing> router # [    5.954148] systemd-journald[283]: Received client request to flush runtime journal.
+vm-test-run-blinking-macvlan-routing> router # [    6.041577] systemd[1]: Mounted Kernel Configuration File System.
+vm-test-run-blinking-macvlan-routing> router # [    6.043277] systemd[1]: Finished Load/Save OS Random Seed.
+vm-test-run-blinking-macvlan-routing> router # [    6.043847] systemd[1]: Reached target First Boot Complete.
+vm-test-run-blinking-macvlan-routing> router # [    6.045231] systemd[1]: Finished Create Static Device Nodes in /dev gracefully.
+vm-test-run-blinking-macvlan-routing> router # [    6.045982] systemd[1]: Starting Create Static Device Nodes in /dev...
+vm-test-run-blinking-macvlan-routing> router # [    6.049183] systemd[1]: Finished Apply Kernel Variables.
+vm-test-run-blinking-macvlan-routing> router # [    6.054656] systemd[1]: Starting Network Name Resolution...
+vm-test-run-blinking-macvlan-routing> router # [    6.055812] systemd[1]: Finished Flush Journal to Persistent Storage.
+vm-test-run-blinking-macvlan-routing> router # [    6.090801] systemd[1]: Finished Coldplug All udev Devices.
+vm-test-run-blinking-macvlan-routing> router # [    6.118161] systemd[1]: Finished Create Static Device Nodes in /dev.
+vm-test-run-blinking-macvlan-routing> router # [    6.120086] systemd[1]: Reached target Preparation for Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    6.122467] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+vm-test-run-blinking-macvlan-routing> router # [    6.132401] systemd-resolved[312]: Positive Trust Anchors:
+vm-test-run-blinking-macvlan-routing> router # [    6.132913] systemd-resolved[312]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+vm-test-run-blinking-macvlan-routing> router # [    6.133570] systemd-resolved[312]: . IN DS 38696 8 2 683d2d0acb8c9b712a1948b27f741219298d0a450d612c483af444a4c0fb2b16
+vm-test-run-blinking-macvlan-routing> router # [    6.134203] systemd-resolved[312]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa resolver.arpa corp home internal intranet lan local private test
+vm-test-run-blinking-macvlan-routing> router # [    6.143104] systemd-resolved[312]: Using system hostname 'router'.
+vm-test-run-blinking-macvlan-routing> router # [    6.145344] systemd[1]: Started Network Name Resolution.
+vm-test-run-blinking-macvlan-routing> router # [    6.153579] systemd-udevd[316]: Using default interface naming scheme 'v261'.
+vm-test-run-blinking-macvlan-routing> router # [    6.169105] systemd[1]: Started Rule-based Manager for Device Events and Files.
+vm-test-run-blinking-macvlan-routing> router # [    6.210504] systemd[1]: Load Kernel Module fuse skipped, unmet condition check ConditionKernelModuleLoaded=!fuse
+vm-test-run-blinking-macvlan-routing> router # [    6.235566] systemd[1]: Condition check resulted in /dev/hvc0 being skipped.
+vm-test-run-blinking-macvlan-routing> router # [    6.238243] systemd[1]: Mounting /run/wrappers...
+vm-test-run-blinking-macvlan-routing> router # [    6.244721] systemd[1]: Condition check resulted in /dev/ttyS0 being skipped.
+vm-test-run-blinking-macvlan-routing> router # [    6.255134] systemd[1]: Mounted /run/wrappers.
+vm-test-run-blinking-macvlan-routing> router # [    6.255465] systemd[1]: Reached target Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [    6.256602] systemd[1]: Listening on Boot Loader Control Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [    6.258290] systemd[1]: Starting register-nix-paths.service...
+vm-test-run-blinking-macvlan-routing> router # [    6.265575] (udev-worker)[323]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> router # [    6.266115] systemd[1]: Starting Create SUID/SGID Wrappers...
+vm-test-run-blinking-macvlan-routing> router # [    6.266486] systemd[1]: Update Boot Loader Random Seed skipped, no trigger condition checks were met.
+vm-test-run-blinking-macvlan-routing> router # [    6.268154] (udev-worker)[324]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> router # [    6.269043] systemd[1]: Starting Save Transient machine-id to Disk...
+vm-test-run-blinking-macvlan-routing> router # [    6.273553] systemd[1]: Starting Create System Files and Directories...
+vm-test-run-blinking-macvlan-routing> router # [    6.370138] systemd[1]: Finished Create System Files and Directories.
+vm-test-run-blinking-macvlan-routing> router # [    6.376248] systemd[1]: Starting Rebuild Journal Catalog...
+vm-test-run-blinking-macvlan-routing> router # [    6.379265] systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+vm-test-run-blinking-macvlan-routing> router # [    6.436471] systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+vm-test-run-blinking-macvlan-routing> router # [    6.467206] systemd[1]: Finished Rebuild Journal Catalog.
+vm-test-run-blinking-macvlan-routing> router # [    6.470804] systemd[1]: Starting Update is Completed...
+vm-test-run-blinking-macvlan-routing> router # [    6.498752] systemd[1]: Finished Update is Completed.
+vm-test-run-blinking-macvlan-routing> router # [    6.574718] input: Power Button as /devices/platform/LNXPWRBN:00/input/input3
+vm-test-run-blinking-macvlan-routing> router # [    6.575223] ACPI: button: Power Button [PWRF]
+vm-test-run-blinking-macvlan-routing> router # [    6.584000] mousedev: PS/2 mouse device common for all mice
+vm-test-run-blinking-macvlan-routing> router # [    6.522202] systemd[1]: etc-machine\x2did.mount: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    6.524854] systemd[1]: Finished Save Transient machine-id to Disk.
+vm-test-run-blinking-macvlan-routing> router # [    6.607562] rtc_cmos PNP0B00:00: RTC can wake from S4
+vm-test-run-blinking-macvlan-routing> router # [    6.616282] bochs-drm 0000:00:01.0: vgaarb: deactivate vga console
+vm-test-run-blinking-macvlan-routing> router # [    6.548096] systemd-resolved[312]: Clock change detected. Flushing caches.
+vm-test-run-blinking-macvlan-routing> router # [    6.619589] rtc_cmos PNP0B00:00: registered as rtc0
+vm-test-run-blinking-macvlan-routing> router # [    6.619637] rtc_cmos PNP0B00:00: setting system clock to 2026-11-17T03:03:35 UTC (1794884615)
+vm-test-run-blinking-macvlan-routing> router # [    6.619714] rtc_cmos PNP0B00:00: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+vm-test-run-blinking-macvlan-routing> router # [    6.620348] systemd-journald[283]: Time jumped backwards, rotating.
+vm-test-run-blinking-macvlan-routing> router # [    6.639815] lpc_ich 0000:00:1f.0: I/O space for GPIO uninitialized
+vm-test-run-blinking-macvlan-routing> router # [    6.643060] Console: switching to colour dummy device 80x25
+vm-test-run-blinking-macvlan-routing> router # [    6.645140] input: QEMU Virtio Keyboard as /devices/pci0000:00/0000:00:06.0/virtio4/input/input4
+vm-test-run-blinking-macvlan-routing> router # [    6.645221] parport_pc 00:02: reported by Plug and Play ACPI
+vm-test-run-blinking-macvlan-routing> router # [    6.645256] parport0: PC-style at 0x378, irq 7 [PCSPP(,...)]
+vm-test-run-blinking-macvlan-routing> router # [    6.656268] [drm] Found bochs VGA, ID 0xb0c5.
+vm-test-run-blinking-macvlan-routing> router # [    6.656269] [drm] Framebuffer size 16384 kB @ 0xfd000000, mmio @ 0xfebd0000.
+vm-test-run-blinking-macvlan-routing> router # [    6.658505] bochs-drm 0000:00:01.0: [drm] Registered 1 planes with drm panic
+vm-test-run-blinking-macvlan-routing> router # [    6.659116] [drm] Initialized bochs-drm 1.0.0 for 0000:00:01.0 on minor 0
+vm-test-run-blinking-macvlan-routing> router # [    6.895557] systemd[1]: suid-sgid-wrappers.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    6.898670] systemd[1]: Finished Create SUID/SGID Wrappers.
+vm-test-run-blinking-macvlan-routing> router # [    6.942861] systemd[1]: Starting Virtual Console Setup...
+vm-test-run-blinking-macvlan-routing> router # [    6.860467] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+vm-test-run-blinking-macvlan-routing> router # [    6.860525] i2c i2c-0: Memory type 0x07 not supported yet, not instantiating SPD
+vm-test-run-blinking-macvlan-routing> router # [    6.988676] Console: switching to colour frame buffer device 160x50
+vm-test-run-blinking-macvlan-routing> router # [    7.004204] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input6
+vm-test-run-blinking-macvlan-routing> router # [    7.004706] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input5
+vm-test-run-blinking-macvlan-routing> router # [    7.038393] bochs-drm 0000:00:01.0: [drm] fb0: bochs-drmdrmfb frame buffer device
+vm-test-run-blinking-macvlan-routing> router # [    7.044270] systemd[1]: systemd-vconsole-setup.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    7.044935] systemd[1]: Stopped Virtual Console Setup.
+vm-test-run-blinking-macvlan-routing> router # [    7.119017] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+vm-test-run-blinking-macvlan-routing> router # [    7.055759] systemd[1]: Starting Virtual Console Setup...
+vm-test-run-blinking-macvlan-routing> router # [    7.173995] ppdev: user-space parallel port driver
+vm-test-run-blinking-macvlan-routing> router # [    7.179116] iTCO_wdt iTCO_wdt.1.auto: Found a ICH9 TCO device (Version=2, TCOBASE=0x0660)
+vm-test-run-blinking-macvlan-routing> router # [    7.206531] iTCO_wdt iTCO_wdt.1.auto: initialized. heartbeat=30 sec (nowayout=0)
+vm-test-run-blinking-macvlan-routing> router # [    7.150924] systemd[1]: systemd-vconsole-setup.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    7.151943] systemd[1]: Stopped Virtual Console Setup.
+vm-test-run-blinking-macvlan-routing> router # [    7.160188] systemd[1]: Starting Virtual Console Setup...
+vm-test-run-blinking-macvlan-routing> router # [    7.190649] systemd[1]: Finished register-nix-paths.service.
+vm-test-run-blinking-macvlan-routing> router # [    7.384273] intel_rapl_msr: PL4 support detected.
+vm-test-run-blinking-macvlan-routing> router # [    7.320997] systemd-vconsole-setup[419]: Configuration of first virtual console was skipped, ignoring remaining ones.
+vm-test-run-blinking-macvlan-routing> router # [    7.323080] systemd[1]: Finished Virtual Console Setup.
+vm-test-run-blinking-macvlan-routing> router # [    7.323723] systemd[1]: Reached target System Initialization.
+vm-test-run-blinking-macvlan-routing> router # [    7.324759] systemd[1]: Started Discard unused filesystem blocks once a week.
+vm-test-run-blinking-macvlan-routing> router # [    7.325993] systemd[1]: Started Daily Cleanup of Temporary Directories.
+vm-test-run-blinking-macvlan-routing> router # [    7.328187] systemd[1]: Reached target Timer Units.
+vm-test-run-blinking-macvlan-routing> router # [    7.328824] systemd[1]: Listening on D-Bus System Message Bus Socket.
+vm-test-run-blinking-macvlan-routing> router # [    7.329796] systemd[1]: Listening on Nix Daemon Socket.
+vm-test-run-blinking-macvlan-routing> router # [    7.330527] systemd[1]: Listening on Virtual Machine and Container Registration Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [    7.331527] systemd[1]: Reached target Socket Units.
+vm-test-run-blinking-macvlan-routing> router # [    7.332189] systemd[1]: Reached target Basic System.
+vm-test-run-blinking-macvlan-routing> router # [    7.334107] systemd[1]: Started backdoor.service.
+vm-test-run-blinking-macvlan-routing> router # [    7.338877] systemd[1]: Starting Import lastlog data into lastlog2 database...
+vm-test-run-blinking-macvlan-routing> router # [    7.345908] systemd[1]: Starting nftables firewall...
+vm-test-run-blinking-macvlan-routing> router # [    7.358171] systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+vm-test-run-blinking-macvlan-routing> router # [    7.377222] systemd[1]: Starting Post-Boot Actions...
+vm-test-run-blinking-macvlan-routing> router # [    7.385129] systemd[1]: Started Reset console on configuration changes.
+vm-test-run-blinking-macvlan-routing> router # [    7.411049] systemd[1]: Starting D-Bus System Message Bus...
+vm-test-run-blinking-macvlan-routing> router # connecting to host...
+vm-test-run-blinking-macvlan-routing> router # [    7.446848] systemd[1]: Finished Post-Boot Actions.
+vm-test-run-blinking-macvlan-routing> router # [    7.450808] systemd[1]: Started Name Service Cache Daemon (nsncd).
+vm-test-run-blinking-macvlan-routing> router # [    7.451687] systemd[1]: Reached target Host and Network Name Lookups.
+vm-test-run-blinking-macvlan-routing> router # [    7.452739] systemd[1]: Reached target User and Group Name Lookups.
+vm-test-run-blinking-macvlan-routing> [8.18s] router: Guest shell says: b'Spawning backdoor root shell...\n'
+vm-test-run-blinking-macvlan-routing> router # [    7.455285] nsncd[426]: Nov 17 03:03:36.402 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+vm-test-run-blinking-macvlan-routing> [8.20s] router: connected to guest root shell
+vm-test-run-blinking-macvlan-routing> [8.20s] router: (connecting took 7.89 seconds)
+vm-test-run-blinking-macvlan-routing> [8.20s] router: (finished: waiting for the VM to finish booting, in 7.89 seconds)
+vm-test-run-blinking-macvlan-routing> router # [    7.466537] systemd[1]: Starting User Login Management...
+vm-test-run-blinking-macvlan-routing> router # [    7.479097] systemd[1]: Finished Import lastlog data into lastlog2 database.
+vm-test-run-blinking-macvlan-routing> router # [    7.535502] dbus-broker-launch[433]: Looking up NSS user entry for 'systemd-timesync'...
+vm-test-run-blinking-macvlan-routing> router # [    7.604810] systemd-logind[454]: New seat seat0.
+vm-test-run-blinking-macvlan-routing> router # [    7.612150] systemd-logind[454]: Watching system buttons on /dev/input/event3 (QEMU Virtio Keyboard)
+vm-test-run-blinking-macvlan-routing> router # [    7.615105] systemd-logind[454]: Watching system buttons on /dev/input/event2 (Power Button)
+vm-test-run-blinking-macvlan-routing> router # [    7.616662] systemd-logind[454]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+vm-test-run-blinking-macvlan-routing> router # [    7.669369] systemd[1]: Started User Login Management.
+vm-test-run-blinking-macvlan-routing> router # [    7.673527] dbus-broker-launch[433]: NSS returned no entry for 'systemd-timesync'
+vm-test-run-blinking-macvlan-routing> router # [    7.674365] dbus-broker-launch[433]: Invalid user-name in /nix/store/yq0qawbqpbi6ssbzkkhbyp52qkgrhx3b-system-path/share/dbus-1/system.d/org.freedesktop.timesync1.conf +16: user="systemd-timesync"
+vm-test-run-blinking-macvlan-routing> router # [    7.677985] systemd[1]: Starting linger-users.service...
+vm-test-run-blinking-macvlan-routing> router # [    7.690387] systemd[1]: Started D-Bus System Message Bus.
+vm-test-run-blinking-macvlan-routing> router # [    7.721068] dbus-broker-launch[433]: Ready
+vm-test-run-blinking-macvlan-routing> router # [    7.730641] systemd[1]: linger-users.service: Deactivated successfully.
+vm-test-run-blinking-macvlan-routing> router # [    7.731270] systemd[1]: Finished linger-users.service.
+vm-test-run-blinking-macvlan-routing> router # [    7.784363] systemd[1]: Finished nftables firewall.
+vm-test-run-blinking-macvlan-routing> router # [    7.787845] systemd[1]: Reached target Preparation for Network.
+vm-test-run-blinking-macvlan-routing> router # [    7.789817] systemd[1]: Listening on Network Management Resolve Hook Socket.
+vm-test-run-blinking-macvlan-routing> router # [    7.794113] systemd[1]: Starting Network Management...
+vm-test-run-blinking-macvlan-routing> router # [    7.904091] systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+vm-test-run-blinking-macvlan-routing> router # [    8.025399] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+vm-test-run-blinking-macvlan-routing> router # [    8.026964] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+vm-test-run-blinking-macvlan-routing> router # [    8.027285] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+vm-test-run-blinking-macvlan-routing> router # [    8.028311] faux_driver regulatory: Direct firmware load for regulatory.db failed with error -2
+vm-test-run-blinking-macvlan-routing> router # [    8.028675] cfg80211: failed to load regulatory.db
+vm-test-run-blinking-macvlan-routing> router # [    7.963667] systemd-networkd[497]: lo: Link UP
+vm-test-run-blinking-macvlan-routing> router # [    7.964473] systemd-networkd[497]: lo: Gained carrier
+vm-test-run-blinking-macvlan-routing> router # [    7.966298] systemd[1]: Started Network Management.
+vm-test-run-blinking-macvlan-routing> router # [    7.967058] systemd-networkd[497]: eth0: Configuring with /etc/systemd/network/99-ethernet-default-dhcp.network.
+vm-test-run-blinking-macvlan-routing> router # [    7.970402] systemd[1]: Reached target Network.
+vm-test-run-blinking-macvlan-routing> router # [    7.970760] systemd-networkd[497]: eth1: Found matching .network file, based on potentially unpredictable interface name: /etc/systemd/network/40-eth1.network
+vm-test-run-blinking-macvlan-routing> router # [    7.971709] systemd-networkd[497]: eth1: Configuring with /etc/systemd/network/40-eth1.network.
+vm-test-run-blinking-macvlan-routing> router # [    7.973722] systemd[1]: Starting Enable Persistent Storage in systemd-networkd...
+vm-test-run-blinking-macvlan-routing> router # [    7.975547] systemd-networkd[497]: eth0: Link UP
+vm-test-run-blinking-macvlan-routing> router # [    7.976057] systemd[1]: Starting Permit User Sessions...
+vm-test-run-blinking-macvlan-routing> router # [    7.977285] systemd-networkd[497]: eth0: Gained carrier
+vm-test-run-blinking-macvlan-routing> router # [    8.060426] NET: Registered PF_PACKET protocol family
+vm-test-run-blinking-macvlan-routing> router # [    7.993732] systemd-networkd[497]: eth1: Link UP
+vm-test-run-blinking-macvlan-routing> router # [    7.994256] systemd-networkd[497]: eth1: Gained carrier
+vm-test-run-blinking-macvlan-routing> router # [    7.995429] systemd-networkd[497]: eth1: Found matching .network file, based on potentially unpredictable interface name: /etc/systemd/network/40-eth1.network
+vm-test-run-blinking-macvlan-routing> router # [    8.003130] systemd[1]: Finished Permit User Sessions.
+vm-test-run-blinking-macvlan-routing> router # [    8.005312] systemd-networkd[497]: eth0: DHCPv4 address 10.0.2.15/24, gateway 10.0.2.2 acquired from 10.0.2.2
+vm-test-run-blinking-macvlan-routing> router # [    8.013371] systemd[1]: Started Getty on tty1.
+vm-test-run-blinking-macvlan-routing> router # [    8.015119] systemd[1]: Reached target Login Prompts.
+vm-test-run-blinking-macvlan-routing> router # [    8.016332] systemd[1]: Reached target Multi-User System.
+vm-test-run-blinking-macvlan-routing> router # [    8.023874] systemd[1]: Finished Enable Persistent Storage in systemd-networkd.
+vm-test-run-blinking-macvlan-routing> router # [    8.025392] systemd[1]: Startup finished in 619ms (kernel) + 3.620s (initrd) + 3.784s (userspace) = 8.025s.
+vm-test-run-blinking-macvlan-routing> [9.49s] router: (finished: waiting for unit multi-user.target, in 9.18 seconds)
+vm-test-run-blinking-macvlan-routing> [9.49s] router: must succeed: ip netns add campus
+vm-test-run-blinking-macvlan-routing> [9.51s] router: (finished: must succeed: ip netns add campus, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [9.51s] router: must succeed: ip link add uplink type veth peer name upstream
+vm-test-run-blinking-macvlan-routing> [9.55s] router: (finished: must succeed: ip link add uplink type veth peer name upstream, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [9.55s] router: must succeed: ip link set upstream netns campus
+vm-test-run-blinking-macvlan-routing> router # [    8.823737] (udev-worker)[321]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> router # [    8.829728] (udev-worker)[319]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> [9.61s] router: (finished: must succeed: ip link set upstream netns campus, in 0.06 seconds)
+vm-test-run-blinking-macvlan-routing> [9.61s] router: must succeed: ip link set uplink up
+vm-test-run-blinking-macvlan-routing> router # [    8.894995] systemd-networkd[497]: uplink: Link UP
+vm-test-run-blinking-macvlan-routing> [9.63s] router: (finished: must succeed: ip link set uplink up, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [9.63s] router: must succeed: ip netns exec campus ip link set lo up
+vm-test-run-blinking-macvlan-routing> [9.64s] router: (finished: must succeed: ip netns exec campus ip link set lo up, in 0.01 seconds)
+vm-test-run-blinking-macvlan-routing> [9.64s] router: must succeed: ip netns exec campus ip link set upstream up
+vm-test-run-blinking-macvlan-routing> router # [    8.919379] systemd-networkd[497]: uplink: Gained carrier
+vm-test-run-blinking-macvlan-routing> [9.65s] router: (finished: must succeed: ip netns exec campus ip link set upstream up, in 0.01 seconds)
+vm-test-run-blinking-macvlan-routing> [9.65s] router: must succeed: ip netns exec campus ip addr add 10.20.0.1/24 dev upstream
+vm-test-run-blinking-macvlan-routing> [9.66s] router: (finished: must succeed: ip netns exec campus ip addr add 10.20.0.1/24 dev upstream, in 0.01 seconds)
+vm-test-run-blinking-macvlan-routing> [9.66s] router: must succeed: ip netns exec campus ip addr add 198.18.0.1/32 dev lo
+vm-test-run-blinking-macvlan-routing> [9.66s] router: (finished: must succeed: ip netns exec campus ip addr add 198.18.0.1/32 dev lo, in 0.01 seconds)
+vm-test-run-blinking-macvlan-routing> [9.66s] router: must succeed: systemd-run --unit=mock-campus ip netns exec campus /nix/store/32q1lkhl77wzjwry2gpgpl0k53p92iw9-dnsmasq-2.93/bin/dnsmasq --user=root --dhcp-leasefile=/tmp/mock-campus.leases --keep-in-foreground --port=0 --interface=upstream --bind-interfaces --dhcp-range=10.20.0.10,10.20.0.20,255.255.255.0,1h --dhcp-option=3,10.20.0.1 --dhcp-host=66:6b:70:ed:f9:b0,10.20.0.10 --dhcp-host=66:6b:70:09:4b:80,10.20.0.11
+vm-test-run-blinking-macvlan-routing> router # [    8.948181] systemd[1]: Started [systemd-run] /run/current-system/sw/bin/ip netns exec campus /nix/store/32q1lkhl77wzjwry2gpgpl0k53p92iw9-dnsmasq-2.93/bin/dnsmasq --user=root --dhcp-leasefile=/tmp/mock-campus.leases --keep-in-foreground --port=0 --interface=upstream --bind-interfaces --dhcp-range=10.20.0.10,10.20.0.20,255.255.255.0,1h --dhcp-option=3,10.20.0.1 --dhcp-host=66:6b:70:ed:f9:b0,10.20.0.10 --dhcp-host=66:6b:70:09:4b:80,10.20.0.11.
+vm-test-run-blinking-macvlan-routing> router # Running as unit: mock-campus.service; invocation ID: e73e9abdc3d14e34a68fde0a916e558a
+vm-test-run-blinking-macvlan-routing> [9.68s] router: (finished: must succeed: systemd-run --unit=mock-campus ip netns exec campus /nix/store/32q1lkhl77wzjwry2gpgpl0k53p92iw9-dnsmasq-2.93/bin/dnsmasq --user=root --dhcp-leasefile=/tmp/mock-campus.leases --keep-in-foreground --port=0 --interface=upstream --bind-interfaces --dhcp-range=10.20.0.10,10.20.0.20,255.255.255.0,1h --dhcp-option=3,10.20.0.1 --dhcp-host=66:6b:70:ed:f9:b0,10.20.0.10 --dhcp-host=66:6b:70:09:4b:80,10.20.0.11, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [9.68s] router: waiting for unit mock-campus.service
+vm-test-run-blinking-macvlan-routing> [9.70s] router: (finished: waiting for unit mock-campus.service, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [9.71s] router: must succeed: ip netns add client
+vm-test-run-blinking-macvlan-routing> router # [    8.991602] dnsmasq[544]: started, version 2.93 DNS disabled
+vm-test-run-blinking-macvlan-routing> router # [    8.992609] dnsmasq[544]: compile time options: IPv6 GNU-getopt DBus no-UBus no-i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
+vm-test-run-blinking-macvlan-routing> router # [    8.994087] dnsmasq[544]: LOUD WARNING: listening on 198.18.0.1 may accept requests via interfaces other than lo
+vm-test-run-blinking-macvlan-routing> router # [    8.995152] dnsmasq[544]: LOUD WARNING: use --bind-dynamic rather than --bind-interfaces to avoid DNS amplification attacks via these interface(s)
+vm-test-run-blinking-macvlan-routing> router # [    8.996539] dnsmasq-dhcp[544]: DHCP, IP range 10.20.0.10 -- 10.20.0.20, lease time 1h
+vm-test-run-blinking-macvlan-routing> router # [    8.997390] dnsmasq-dhcp[544]: DHCP, sockets bound exclusively to interface upstream
+vm-test-run-blinking-macvlan-routing> router # [    8.999159] dnsmasq[544]: LOUD WARNING: listening on 198.18.0.1 may accept requests via interfaces other than lo
+vm-test-run-blinking-macvlan-routing> router # [    9.000229] dnsmasq[544]: LOUD WARNING: use --bind-dynamic rather than --bind-interfaces to avoid DNS amplification attacks via these interface(s)
+vm-test-run-blinking-macvlan-routing> [9.73s] router: (finished: must succeed: ip netns add client, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [9.73s] router: must succeed: ip link add lan0 type veth peer name client0
+vm-test-run-blinking-macvlan-routing> [9.74s] router: (finished: must succeed: ip link add lan0 type veth peer name client0, in 0.01 seconds)
+vm-test-run-blinking-macvlan-routing> [9.74s] router: must succeed: ip link set client0 netns client
+vm-test-run-blinking-macvlan-routing> router # [    9.032165] systemd-networkd[497]: lan0: Configuring with /etc/systemd/network/10-lan.network.
+vm-test-run-blinking-macvlan-routing> router # [    9.035652] systemd-networkd[497]: lan0: Link UP
+vm-test-run-blinking-macvlan-routing> [9.78s] router: (finished: must succeed: ip link set client0 netns client, in 0.04 seconds)
+vm-test-run-blinking-macvlan-routing> [9.78s] router: must succeed: ip link set lan0 up
+vm-test-run-blinking-macvlan-routing> [9.80s] router: (finished: must succeed: ip link set lan0 up, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [9.80s] router: must succeed: ip netns exec client ip link set lo up
+vm-test-run-blinking-macvlan-routing> [9.81s] router: (finished: must succeed: ip netns exec client ip link set lo up, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [9.81s] router: must succeed: ip netns exec client ip link set client0 up
+vm-test-run-blinking-macvlan-routing> router # [    9.101146] systemd-networkd[497]: lan0: Gained carrier
+vm-test-run-blinking-macvlan-routing> [9.83s] router: (finished: must succeed: ip netns exec client ip link set client0 up, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [9.83s] router: must succeed: networkctl reload
+vm-test-run-blinking-macvlan-routing> router # [    9.126214] systemd-networkd[497]: eth1: Found matching .network file, based on potentially unpredictable interface name: /etc/systemd/network/40-eth1.network
+vm-test-run-blinking-macvlan-routing> [9.86s] router: (finished: must succeed: networkctl reload, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [9.86s] router: waiting for success: ip -4 addr show lan0 | grep 192.168.64.1
+vm-test-run-blinking-macvlan-routing> [9.88s] router: (finished: waiting for success: ip -4 addr show lan0 | grep 192.168.64.1, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [9.88s] router: must succeed: systemctl start container@wan0 container@wan1
+vm-test-run-blinking-macvlan-routing> router # [    9.172413] systemd[1]: Created slice Virtual Machine and Container Slice.
+vm-test-run-blinking-macvlan-routing> router # [    9.175145] systemd[1]: Starting Container 'wan0'...
+vm-test-run-blinking-macvlan-routing> router # [    9.179128] systemd[1]: Starting Container 'wan1'...
+vm-test-run-blinking-macvlan-routing> router # [    9.197589] systemd[1]: Starting Virtual Machine and Container Registration Service...
+vm-test-run-blinking-macvlan-routing> router # [    9.213355] systemd[1]: Started Virtual Machine and Container Registration Service.
+vm-test-run-blinking-macvlan-routing> router # [    9.255473] systemd-nspawn[597]: Note: in a future version of systemd-nspawn the default set of permitted socket address families will be restricted to AF_INET, AF_INET6 and AF_UNIX. Use --restrict-address-families= to configure the set of permitted socket address families, or set RestrictAddressFamilies= in a .nspawn file.
+vm-test-run-blinking-macvlan-routing> router # [    9.259049] systemd-nspawn[596]: Note: in a future version of systemd-nspawn the default set of permitted socket address families will be restricted to AF_INET, AF_INET6 and AF_UNIX. Use --restrict-address-families= to configure the set of permitted socket address families, or set RestrictAddressFamilies= in a .nspawn file.
+vm-test-run-blinking-macvlan-routing> router # [    9.261953] systemd-nspawn[597]: ░ Spawning container wan0 on /var/lib/nixos-containers/wan0.
+vm-test-run-blinking-macvlan-routing> router # [    9.265130] systemd-nspawn[596]: ░ Spawning container wan1 on /var/lib/nixos-containers/wan1.
+vm-test-run-blinking-macvlan-routing> router # [    9.291436] systemd-networkd[497]: eth0: Gained IPv6LL
+vm-test-run-blinking-macvlan-routing> router # [    9.292665] systemd-machined[588]: New machine wan0.
+vm-test-run-blinking-macvlan-routing> router # [    9.301717] systemd-machined[588]: New machine wan1.
+vm-test-run-blinking-macvlan-routing> router # [    9.434683] (udev-worker)[625]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> router # [    9.438305] (udev-worker)[626]: Network interface NamePolicy= disabled on kernel command line.
+vm-test-run-blinking-macvlan-routing> router # [    9.454644] systemd-networkd[497]: veth-wan0: Configuring with /etc/systemd/network/20-wan0.network.
+vm-test-run-blinking-macvlan-routing> router # [    9.458465] systemd-networkd[497]: veth-wan0: Link UP
+vm-test-run-blinking-macvlan-routing> router # [    9.462056] systemd-networkd[497]: veth-wan1: Configuring with /etc/systemd/network/20-wan1.network.
+vm-test-run-blinking-macvlan-routing> router # [    9.467096] systemd-networkd[497]: veth-wan1: Link UP
+vm-test-run-blinking-macvlan-routing> router # [    9.492913] container wan0[597]: Bringing veth-wan0 up
+vm-test-run-blinking-macvlan-routing> router # [    9.503470] systemd-networkd[497]: veth-wan0: Gained carrier
+vm-test-run-blinking-macvlan-routing> router # [    9.506312] container wan1[596]: Bringing veth-wan1 up
+vm-test-run-blinking-macvlan-routing> router # [    9.513686] container wan0[597]:
+vm-test-run-blinking-macvlan-routing> router # [    9.517755] container wan0[597]: <<< NixOS Stage 2 >>>
+vm-test-run-blinking-macvlan-routing> router # [    9.520628] container wan0[597]:
+vm-test-run-blinking-macvlan-routing> router # [    9.524358] container wan0[597]: booting system configuration /nix/store/k0qksa2fkw21b85bmv1yrazysx2220yr-nixos-system-wan0-26.11pre-git
+vm-test-run-blinking-macvlan-routing> router # [    9.528148] systemd-networkd[497]: veth-wan1: Gained carrier
+vm-test-run-blinking-macvlan-routing> router # [    9.537705] container wan1[596]:
+vm-test-run-blinking-macvlan-routing> router # [    9.540582] container wan1[596]: <<< NixOS Stage 2 >>>
+vm-test-run-blinking-macvlan-routing> router # [    9.542797] container wan1[596]:
+vm-test-run-blinking-macvlan-routing> router # [    9.544700] container wan1[596]: booting system configuration /nix/store/ga23v5ksmppaqcmawhjq3nzn6zf3lwlg-nixos-system-wan1-26.11pre-git
+vm-test-run-blinking-macvlan-routing> router # [    9.678645] container wan0[597]: running activation script...
+vm-test-run-blinking-macvlan-routing> router # [    9.680318] container wan1[596]: running activation script...
+vm-test-run-blinking-macvlan-routing> router # [    9.883708] container wan0[597]: setting up /etc...
+vm-test-run-blinking-macvlan-routing> router # [    9.886154] container wan1[596]: setting up /etc...
+vm-test-run-blinking-macvlan-routing> router # [    9.932135] systemd-networkd[497]: eth1: Gained IPv6LL
+vm-test-run-blinking-macvlan-routing> router # [    9.992605] dnsmasq[544]: LOUD WARNING: listening on 198.18.0.1 may accept requests via interfaces other than lo
+vm-test-run-blinking-macvlan-routing> router # [    9.996288] dnsmasq[544]: LOUD WARNING: use --bind-dynamic rather than --bind-interfaces to avoid DNS amplification attacks via these interface(s)
+vm-test-run-blinking-macvlan-routing> router # [   10.056477] dnsmasq[544]: LOUD WARNING: listening on 198.18.0.1 may accept requests via interfaces other than lo
+vm-test-run-blinking-macvlan-routing> router # [   10.059365] dnsmasq[544]: LOUD WARNING: use --bind-dynamic rather than --bind-interfaces to avoid DNS amplification attacks via these interface(s)
+vm-test-run-blinking-macvlan-routing> router # [   10.157686] container wan0[597]: starting systemd...
+vm-test-run-blinking-macvlan-routing> router # [   10.163176] container wan0[597]: systemd 262 running in system mode (+PAM +AUDIT -SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK -BTF -XKBCOMMON +UTMP +LIBARCHIVE)
+vm-test-run-blinking-macvlan-routing> router # [   10.164855] container wan1[596]: starting systemd...
+vm-test-run-blinking-macvlan-routing> router # [   10.165501] container wan0[597]: Detected virtualization systemd-nspawn.
+vm-test-run-blinking-macvlan-routing> router # [   10.165980] container wan0[597]: Detected architecture x86-64.
+vm-test-run-blinking-macvlan-routing> router # [   10.167273] container wan0[597]:
+vm-test-run-blinking-macvlan-routing> router # [   10.167542] container wan0[597]: Welcome to NixOS 26.11 (Zokor)!
+vm-test-run-blinking-macvlan-routing> router # [   10.167889] container wan0[597]:
+vm-test-run-blinking-macvlan-routing> router # [   10.168630] container wan0[597]: Initializing machine ID from container UUID.
+vm-test-run-blinking-macvlan-routing> router # [   10.171211] container wan1[596]: systemd 262 running in system mode (+PAM +AUDIT -SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK -BTF -XKBCOMMON +UTMP +LIBARCHIVE)
+vm-test-run-blinking-macvlan-routing> router # [   10.173631] container wan1[596]: Detected virtualization systemd-nspawn.
+vm-test-run-blinking-macvlan-routing> router # [   10.174549] container wan1[596]: Detected architecture x86-64.
+vm-test-run-blinking-macvlan-routing> router # [   10.175793] container wan1[596]:
+vm-test-run-blinking-macvlan-routing> router # [   10.176457] container wan1[596]: Welcome to NixOS 26.11 (Zokor)!
+vm-test-run-blinking-macvlan-routing> router # [   10.177340] container wan1[596]:
+vm-test-run-blinking-macvlan-routing> router # [   10.177940] container wan1[596]: Initializing machine ID from container UUID.
+vm-test-run-blinking-macvlan-routing> router # [   10.370239] container wan1[596]: Queued start job for default target Multi-User System.
+vm-test-run-blinking-macvlan-routing> router # [   10.372694] container wan0[597]: Queued start job for default target Multi-User System.
+vm-test-run-blinking-macvlan-routing> router # [   10.377117] container wan1[596]: [  OK  ] Created slice Slice /system/getty.
+vm-test-run-blinking-macvlan-routing> router # [   10.379166] container wan0[597]: [  OK  ] Created slice Slice /system/getty.
+vm-test-run-blinking-macvlan-routing> router # [   10.381057] container wan1[596]: [  OK  ] Created slice Slice /system/modprobe.
+vm-test-run-blinking-macvlan-routing> router # [   10.382591] container wan0[597]: [  OK  ] Created slice Slice /system/modprobe.
+vm-test-run-blinking-macvlan-routing> router # [   10.384320] container wan1[596]: [  OK  ] Created slice User and Session Slice.
+vm-test-run-blinking-macvlan-routing> router # [   10.385663] container wan1[596]: [  OK  ] Started Dispatch Password Requests to Console Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [   10.387304] container wan0[597]: [  OK  ] Created slice User and Session Slice.
+vm-test-run-blinking-macvlan-routing> router # [   10.388275] container wan0[597]: [  OK  ] Started Dispatch Password Requests to Console Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [   10.389770] container wan1[596]: [  OK  ] Started Forward Password Requests to Wall Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [   10.390922] container wan1[596]: [  OK  ] Reached target Local Encrypted Volumes.
+vm-test-run-blinking-macvlan-routing> router # [   10.392300] container wan0[597]: [  OK  ] Started Forward Password Requests to Wall Directory Watch.
+vm-test-run-blinking-macvlan-routing> router # [   10.393502] container wan0[597]: [  OK  ] Reached target Local Encrypted Volumes.
+vm-test-run-blinking-macvlan-routing> router # [   10.394735] container wan1[596]: [  OK  ] Reached target Virtual Machines and Containers.
+vm-test-run-blinking-macvlan-routing> router # [   10.395880] container wan1[596]: [  OK  ] Reached target Path Units.
+vm-test-run-blinking-macvlan-routing> router # [   10.397295] container wan0[597]: [  OK  ] Reached target Virtual Machines and Containers.
+vm-test-run-blinking-macvlan-routing> router # [   10.398853] container wan0[597]: [  OK  ] Reached target Path Units.
+vm-test-run-blinking-macvlan-routing> router # [   10.400108] container wan1[596]: [  OK  ] Reached target Remote File Systems.
+vm-test-run-blinking-macvlan-routing> router # [   10.401257] container wan1[596]: [  OK  ] Reached target Slice Units.
+vm-test-run-blinking-macvlan-routing> router # [   10.402539] container wan0[597]: [  OK  ] Reached target Remote File Systems.
+vm-test-run-blinking-macvlan-routing> router # [   10.403824] container wan1[596]: [  OK  ] Reached target Swaps.
+vm-test-run-blinking-macvlan-routing> router # [   10.405276] container wan0[597]: [  OK  ] Reached target Slice Units.
+vm-test-run-blinking-macvlan-routing> router # [   10.406493] container wan0[597]: [  OK  ] Reached target Swaps.
+vm-test-run-blinking-macvlan-routing> router # [   10.409570] container wan1[596]: [  OK  ] Listening on Query the User Interactively for a Password.
+vm-test-run-blinking-macvlan-routing> router # [   10.410992] container wan0[597]: [  OK  ] Listening on Query the User Interactively for a Password.
+vm-test-run-blinking-macvlan-routing> router # [   10.414936] container wan1[596]: [  OK  ] Listening on Process Core Dump Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.417220] container wan0[597]: [  OK  ] Listening on Process Core Dump Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.420634] container wan1[596]: [  OK  ] Listening on Credential Encryption/Decryption.
+vm-test-run-blinking-macvlan-routing> router # [   10.422209] container wan0[597]: [  OK  ] Listening on Credential Encryption/Decryption.
+vm-test-run-blinking-macvlan-routing> router # [   10.425067] container wan1[596]: [  OK  ] Listening on Factory Reset Management.
+vm-test-run-blinking-macvlan-routing> router # [   10.426665] container wan1[596]: [  OK  ] Listening on Hostname Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.429637] container wan0[597]: [  OK  ] Listening on Factory Reset Management.
+vm-test-run-blinking-macvlan-routing> router # [   10.432399] container wan0[597]: [  OK  ] Listening on Hostname Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.436060] container wan1[596]:          Starting Journal Log Access Socket...
+vm-test-run-blinking-macvlan-routing> router # [   10.438056] container wan1[596]: [  OK  ] Listening on Journal Socket (/dev/log).
+vm-test-run-blinking-macvlan-routing> router # [   10.439903] container wan0[597]:          Starting Journal Log Access Socket...
+vm-test-run-blinking-macvlan-routing> router # [   10.441737] container wan1[596]: [  OK  ] Listening on Journal Sockets.
+vm-test-run-blinking-macvlan-routing> router # [   10.444314] container wan0[597]: [  OK  ] Listening on Journal Socket (/dev/log).
+vm-test-run-blinking-macvlan-routing> router # [   10.448440] container wan0[597]: [  OK  ] Listening on Journal Sockets.
+vm-test-run-blinking-macvlan-routing> router # [   10.450395] container wan1[596]: [  OK  ] Listening on Console Output Muting Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.454093] container wan0[597]: [  OK  ] Listening on Console Output Muting Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.455750] container wan1[596]: [  OK  ] Listening on Network Management Metrics Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.457218] container wan1[596]: [  OK  ] Listening on Network Management Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.458549] container wan1[596]: [  OK  ] Listening on Network Management Netlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.460815] container wan0[597]: [  OK  ] Listening on Network Management Metrics Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.462366] container wan0[597]: [  OK  ] Listening on Network Management Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.464117] container wan1[596]: [  OK  ] Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.465976] container wan0[597]: [  OK  ] Listening on Network Management Netlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.467952] container wan0[597]: [  OK  ] Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.474574] container wan1[596]: [  OK  ] Listening on Disk Repartitioning Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.476278] container wan0[597]: [  OK  ] Listening on Disk Repartitioning Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.478351] container wan1[596]: [  OK  ] Listening on Resolve Monitor Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.480192] container wan1[596]: [  OK  ] Listening on Resolve Service Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.481355] container wan0[597]: [  OK  ] Listening on Resolve Monitor Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.482370] container wan0[597]: [  OK  ] Listening on Resolve Service Varlink Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.485730] container wan0[597]:          Mounting Huge Pages File System...
+vm-test-run-blinking-macvlan-routing> router # [   10.486737] container wan1[596]:          Mounting Huge Pages File System...
+vm-test-run-blinking-macvlan-routing> router # [   10.497246] container wan0[597]:          Starting Journal Service...
+vm-test-run-blinking-macvlan-routing> router # [   10.499230] container wan1[596]:          Starting Journal Service...
+vm-test-run-blinking-macvlan-routing> router # [   10.511121] container wan0[597]:          Starting Userspace Out-Of-Memory (OOM) Killer...
+vm-test-run-blinking-macvlan-routing> router # [   10.512728] container wan1[596]:          Starting Userspace Out-Of-Memory (OOM) Killer...
+vm-test-run-blinking-macvlan-routing> router # [   10.514069] container wan1[596]: [  OK  ] Listening on Disk Image Download Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.516094] container wan0[597]: [  OK  ] Listening on Disk Image Download Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.529978] container wan0[597]:          Starting Apply Kernel Variables...
+vm-test-run-blinking-macvlan-routing> router # [   10.533845] container wan1[596]:          Starting Apply Kernel Variables...
+vm-test-run-blinking-macvlan-routing> router # [   10.541304] container wan1[596]:          Starting Create Static Device Nodes in /dev gracefully...
+vm-test-run-blinking-macvlan-routing> router # [   10.545483] container wan0[597]:          Starting Create Static Device Nodes in /dev gracefully...
+vm-test-run-blinking-macvlan-routing> router # [   10.551145] container wan1[596]: [  OK  ] Listening on Journal Log Access Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.568542] container wan0[597]: [  OK  ] Listening on Journal Log Access Socket.
+vm-test-run-blinking-macvlan-routing> router # [   10.615367] container wan0[597]: [  OK  ] Mounted Huge Pages File System.
+vm-test-run-blinking-macvlan-routing> router # [   10.621938] container wan1[596]: [  OK  ] Mounted Huge Pages File System.
+vm-test-run-blinking-macvlan-routing> router # [   10.633734] systemd-networkd[497]: uplink: Gained IPv6LL
+vm-test-run-blinking-macvlan-routing> router # [   10.697302] systemd-networkd[497]: lan0: Gained IPv6LL
+vm-test-run-blinking-macvlan-routing> router # [   10.721157] container wan1[596]: [  OK  ] Finished Apply Kernel Variables.
+vm-test-run-blinking-macvlan-routing> router # [   10.722900] container wan0[597]: [  OK  ] Finished Apply Kernel Variables.
+vm-test-run-blinking-macvlan-routing> router # [   10.749487] container wan1[596]:          Starting Network Name Resolution...
+vm-test-run-blinking-macvlan-routing> router # [   10.753049] container wan0[597]:          Starting Network Name Resolution...
+vm-test-run-blinking-macvlan-routing> router # [   10.804359] container wan0[597]: [  OK  ] Finished Create Static Device Nodes in /dev gracefully.
+vm-test-run-blinking-macvlan-routing> router # [   10.808189] container wan1[596]: [  OK  ] Finished Create Static Device Nodes in /dev gracefully.
+vm-test-run-blinking-macvlan-routing> router # [   10.824654] systemd-networkd[497]: veth-wan1: Gained IPv6LL
+vm-test-run-blinking-macvlan-routing> router # [   10.832103] container wan0[597]:          Starting Create Static Device Nodes in /dev...
+vm-test-run-blinking-macvlan-routing> router # [   10.839742] container wan1[596]:          Starting Create Static Device Nodes in /dev...
+vm-test-run-blinking-macvlan-routing> router # [   10.845156] container wan1[596]: [  OK  ] Started Journal Service.
+vm-test-run-blinking-macvlan-routing> router # [   10.868180] container wan0[597]: [  OK  ] Started Journal Service.
+vm-test-run-blinking-macvlan-routing> router # [   10.878167] container wan1[596]:          Starting Flush Journal to Persistent Storage...
+vm-test-run-blinking-macvlan-routing> router # [   10.937121] container wan0[597]:          Starting Flush Journal to Persistent Storage...
+vm-test-run-blinking-macvlan-routing> router # [   11.012238] container wan1[596]: [  OK  ] Finished Create Static Device Nodes in /dev.
+vm-test-run-blinking-macvlan-routing> router # [   11.014118] container wan1[596]: [  OK  ] Reached target Preparation for Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [   11.021103] container wan0[597]: [  OK  ] Finished Create Static Device Nodes in /dev.
+vm-test-run-blinking-macvlan-routing> router # [   11.023441] container wan0[597]: [  OK  ] Reached target Preparation for Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [   11.102065] container wan0[597]: [  OK  ] Finished Flush Journal to Persistent Storage.
+vm-test-run-blinking-macvlan-routing> router # [   11.161788] container wan1[596]: [  OK  ] Finished Flush Journal to Persistent Storage.
+vm-test-run-blinking-macvlan-routing> router # [   11.178184] container wan1[596]: [  OK  ] Started Userspace Out-Of-Memory (OOM) Killer.
+vm-test-run-blinking-macvlan-routing> router # [   11.185222] container wan0[597]: [  OK  ] Started Userspace Out-Of-Memory (OOM) Killer.
+vm-test-run-blinking-macvlan-routing> router # [   11.271412] container wan0[597]: [  OK  ] Started Network Name Resolution.
+vm-test-run-blinking-macvlan-routing> router # [   11.275421] container wan1[596]: [  OK  ] Started Network Name Resolution.
+vm-test-run-blinking-macvlan-routing> router # [   11.466299] systemd-networkd[497]: veth-wan0: Gained IPv6LL
+vm-test-run-blinking-macvlan-routing> router # [   11.576283] container wan1[596]:          Mounting /run/wrappers...
+vm-test-run-blinking-macvlan-routing> router # [   11.585147] container wan0[597]:          Mounting /run/wrappers...
+vm-test-run-blinking-macvlan-routing> router # [   11.608477] container wan1[596]: [  OK  ] Mounted /run/wrappers.
+vm-test-run-blinking-macvlan-routing> router # [   11.611835] container wan0[597]: [  OK  ] Mounted /run/wrappers.
+vm-test-run-blinking-macvlan-routing> router # [   11.613554] container wan1[596]: [  OK  ] Reached target Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [   11.615648] container wan0[597]: [  OK  ] Reached target Local File Systems.
+vm-test-run-blinking-macvlan-routing> router # [   11.619616] container wan1[596]: [  OK  ] Listening on Boot Loader Control Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   11.622106] container wan0[597]: [  OK  ] Listening on Boot Loader Control Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   11.625421] container wan1[596]:          Starting Create SUID/SGID Wrappers...
+vm-test-run-blinking-macvlan-routing> router # [   11.626744] container wan0[597]:          Starting Create SUID/SGID Wrappers...
+vm-test-run-blinking-macvlan-routing> router # [   11.636251] container wan1[596]:          Starting Create System Files and Directories...
+vm-test-run-blinking-macvlan-routing> router # [   11.638127] container wan0[597]:          Starting Create System Files and Directories...
+vm-test-run-blinking-macvlan-routing> router # [   11.706521] container wan1[596]: [  OK  ] Finished Create System Files and Directories.
+vm-test-run-blinking-macvlan-routing> router # [   11.710166] container wan0[597]: [  OK  ] Finished Create System Files and Directories.
+vm-test-run-blinking-macvlan-routing> router # [   11.714851] container wan1[596]:          Starting Rebuild Journal Catalog...
+vm-test-run-blinking-macvlan-routing> router # [   11.718185] container wan0[597]:          Starting Rebuild Journal Catalog...
+vm-test-run-blinking-macvlan-routing> router # [   11.722717] container wan1[596]:          Starting Record System Boot/Shutdown in UTMP...
+vm-test-run-blinking-macvlan-routing> router # [   11.728300] container wan0[597]:          Starting Record System Boot/Shutdown in UTMP...
+vm-test-run-blinking-macvlan-routing> router # [   11.828757] container wan1[596]: [  OK  ] Finished Record System Boot/Shutdown in UTMP.
+vm-test-run-blinking-macvlan-routing> router # [   11.831871] container wan0[597]: [  OK  ] Finished Record System Boot/Shutdown in UTMP.
+vm-test-run-blinking-macvlan-routing> router # [   11.875883] container wan0[597]: [  OK  ] Finished Rebuild Journal Catalog.
+vm-test-run-blinking-macvlan-routing> router # [   11.885871] container wan0[597]:          Starting Update is Completed...
+vm-test-run-blinking-macvlan-routing> router # [   11.891385] container wan1[596]: [  OK  ] Finished Rebuild Journal Catalog.
+vm-test-run-blinking-macvlan-routing> router # [   11.901271] container wan1[596]:          Starting Update is Completed...
+vm-test-run-blinking-macvlan-routing> router # [   11.954661] container wan0[597]: [  OK  ] Finished Update is Completed.
+vm-test-run-blinking-macvlan-routing> router # [   11.963405] container wan1[596]: [  OK  ] Finished Update is Completed.
+vm-test-run-blinking-macvlan-routing> router # [   12.066967] container wan0[597]: [  OK  ] Finished Create SUID/SGID Wrappers.
+vm-test-run-blinking-macvlan-routing> router # [   12.069582] container wan0[597]: [  OK  ] Reached target System Initialization.
+vm-test-run-blinking-macvlan-routing> router # [   12.071650] container wan1[596]: [  OK  ] Finished Create SUID/SGID Wrappers.
+vm-test-run-blinking-macvlan-routing> router # [   12.073628] container wan0[597]: [  OK  ] Started logrotate.timer.
+vm-test-run-blinking-macvlan-routing> router # [   12.075099] container wan0[597]: [  OK  ] Started Daily Cleanup of Temporary Directories.
+vm-test-run-blinking-macvlan-routing> router # [   12.078078] container wan0[597]: [  OK  ] Reached target Timer Units.
+vm-test-run-blinking-macvlan-routing> router # [   12.079685] container wan1[596]: [  OK  ] Reached target System Initialization.
+vm-test-run-blinking-macvlan-routing> router # [   12.083654] container wan0[597]: [  OK  ] Listening on D-Bus System Message Bus Socket.
+vm-test-run-blinking-macvlan-routing> router # [   12.085739] container wan1[596]: [  OK  ] Started logrotate.timer.
+vm-test-run-blinking-macvlan-routing> router # [   12.088037] container wan1[596]: [  OK  ] Started Daily Cleanup of Temporary Directories.
+vm-test-run-blinking-macvlan-routing> router # [   12.089704] container wan1[596]: [  OK  ] Reached target Timer Units.
+vm-test-run-blinking-macvlan-routing> router # [   12.092337] container wan0[597]: [  OK  ] Listening on Virtual Machine and Container Registration Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   12.095069] container wan0[597]: [  OK  ] Reached target Socket Units.
+vm-test-run-blinking-macvlan-routing> router # [   12.097679] container wan1[596]: [  OK  ] Listening on D-Bus System Message Bus Socket.
+vm-test-run-blinking-macvlan-routing> router # [   12.100168] container wan0[597]: [  OK  ] Reached target Basic System.
+vm-test-run-blinking-macvlan-routing> router # [   12.103850] container wan1[596]: [  OK  ] Listening on Virtual Machine and Container Registration Service Socket.
+vm-test-run-blinking-macvlan-routing> router # [   12.107166] container wan1[596]: [  OK  ] Reached target Socket Units.
+vm-test-run-blinking-macvlan-routing> router # [   12.108971] container wan0[597]:          Starting Import lastlog data into lastlog2 database...
+vm-test-run-blinking-macvlan-routing> router # [   12.112271] container wan1[596]: [  OK  ] Reached target Basic System.
+vm-test-run-blinking-macvlan-routing> router # [   12.120077] container wan1[596]:          Starting Import lastlog data into lastlog2 database...
+vm-test-run-blinking-macvlan-routing> router # [   12.123188] container wan0[597]:          Starting Logrotate configuration check...
+vm-test-run-blinking-macvlan-routing> router # [   12.132256] container wan1[596]:          Starting Logrotate configuration check...
+vm-test-run-blinking-macvlan-routing> router # [   12.138260] container wan0[597]:          Starting nftables firewall...
+vm-test-run-blinking-macvlan-routing> router # [   12.148076] container wan1[596]:          Starting nftables firewall...
+vm-test-run-blinking-macvlan-routing> router # [   12.159552] container wan0[597]:          Starting Name Service Cache Daemon (nsncd)...
+vm-test-run-blinking-macvlan-routing> router # [   12.165358] container wan1[596]:          Starting Name Service Cache Daemon (nsncd)...
+vm-test-run-blinking-macvlan-routing> router # [   12.181336] container wan1[596]:          Starting D-Bus System Message Bus...
+vm-test-run-blinking-macvlan-routing> router # [   12.182321] container wan0[597]:          Starting D-Bus System Message Bus...
+vm-test-run-blinking-macvlan-routing> router # [   12.235359] container wan0[597]: [  OK  ] Finished Logrotate configuration check.
+vm-test-run-blinking-macvlan-routing> router # [   12.238580] container wan1[596]: [  OK  ] Finished Logrotate configuration check.
+vm-test-run-blinking-macvlan-routing> router # [   12.263500] container wan0[597]: [  OK  ] Started Name Service Cache Daemon (nsncd).
+vm-test-run-blinking-macvlan-routing> router # [   12.264366] container wan0[597]: [  OK  ] Reached target Host and Network Name Lookups.
+vm-test-run-blinking-macvlan-routing> router # [   12.266857] container wan0[597]: [  OK  ] Reached target User and Group Name Lookups.
+vm-test-run-blinking-macvlan-routing> router # [   12.268324] container wan1[596]: [  OK  ] Started Name Service Cache Daemon (nsncd).
+vm-test-run-blinking-macvlan-routing> router # [   12.269647] container wan1[596]: [  OK  ] Reached target Host and Network Name Lookups.
+vm-test-run-blinking-macvlan-routing> router # [   12.272060] container wan1[596]: [  OK  ] Reached target User and Group Name Lookups.
+vm-test-run-blinking-macvlan-routing> router # [   12.274670] container wan0[597]:          Starting User Login Management...
+vm-test-run-blinking-macvlan-routing> router # [   12.279393] container wan1[596]:          Starting User Login Management...
+vm-test-run-blinking-macvlan-routing> router # [   12.283176] container wan1[596]: [  OK  ] Finished Import lastlog data into lastlog2 database.
+vm-test-run-blinking-macvlan-routing> router # [   12.285874] container wan0[597]: [  OK  ] Finished Import lastlog data into lastlog2 database.
+vm-test-run-blinking-macvlan-routing> router # [   12.302418] container wan0[597]: [  OK  ] Started D-Bus System Message Bus.
+vm-test-run-blinking-macvlan-routing> router # [   12.303730] container wan1[596]: [  OK  ] Started D-Bus System Message Bus.
+vm-test-run-blinking-macvlan-routing> router # [   12.442144] container wan1[596]: [  OK  ] Finished nftables firewall.
+vm-test-run-blinking-macvlan-routing> router # [   12.443616] container wan0[597]: [  OK  ] Finished nftables firewall.
+vm-test-run-blinking-macvlan-routing> router # [   12.445045] container wan1[596]: [  OK  ] Reached target Preparation for Network.
+vm-test-run-blinking-macvlan-routing> router # [   12.446947] container wan0[597]: [  OK  ] Reached target Preparation for Network.
+vm-test-run-blinking-macvlan-routing> router # [   12.449172] container wan1[596]: [  OK  ] Listening on Network Management Resolve Hook Socket.
+vm-test-run-blinking-macvlan-routing> router # [   12.451286] container wan0[597]: [  OK  ] Listening on Network Management Resolve Hook Socket.
+vm-test-run-blinking-macvlan-routing> router # [   12.454082] container wan1[596]:          Starting Network Management...
+vm-test-run-blinking-macvlan-routing> router # [   12.454852] container wan0[597]:          Starting Network Management...
+vm-test-run-blinking-macvlan-routing> router # [   12.462400] container wan0[597]: [  OK  ] Started User Login Management.
+vm-test-run-blinking-macvlan-routing> router # [   12.463816] container wan1[596]: [  OK  ] Started User Login Management.
+vm-test-run-blinking-macvlan-routing> router # [   12.467771] container wan1[596]:          Starting linger-users.service...
+vm-test-run-blinking-macvlan-routing> router # [   12.468518] container wan0[597]:          Starting linger-users.service...
+vm-test-run-blinking-macvlan-routing> router # [   12.499562] container wan1[596]: [  OK  ] Finished linger-users.service.
+vm-test-run-blinking-macvlan-routing> router # [   12.501403] container wan0[597]: [  OK  ] Finished linger-users.service.
+vm-test-run-blinking-macvlan-routing> router # [   12.612675] container wan1[596]: [  OK  ] Started Network Management.
+vm-test-run-blinking-macvlan-routing> router # [   12.615813] container wan0[597]: [  OK  ] Started Network Management.
+vm-test-run-blinking-macvlan-routing> router # [   12.624071] container wan1[596]: [  OK  ] Reached target Network.
+vm-test-run-blinking-macvlan-routing> router # [   12.627171] container wan0[597]: [  OK  ] Reached target Network.
+vm-test-run-blinking-macvlan-routing> router # [   12.637052] container wan1[596]:          Starting Enable Persistent Storage in systemd-networkd...
+vm-test-run-blinking-macvlan-routing> router # [   12.638420] container wan0[597]:          Starting Enable Persistent Storage in systemd-networkd...
+vm-test-run-blinking-macvlan-routing> router # [   12.645252] container wan1[596]:          Starting Permit User Sessions...
+vm-test-run-blinking-macvlan-routing> router # [   12.647435] container wan0[597]:          Starting Permit User Sessions...
+vm-test-run-blinking-macvlan-routing> router # [   12.720125] uplink: entered promiscuous mode
+vm-test-run-blinking-macvlan-routing> router # [   12.671224] dnsmasq-dhcp[544]: DHCPDISCOVER(upstream) 66:6b:70:09:4b:80
+vm-test-run-blinking-macvlan-routing> router # [   12.672604] dnsmasq-dhcp[544]: DHCPOFFER(upstream) 10.20.0.11 66:6b:70:09:4b:80
+vm-test-run-blinking-macvlan-routing> router # [   12.681787] dnsmasq-dhcp[544]: DHCPDISCOVER(upstream) 66:6b:70:ed:f9:b0
+vm-test-run-blinking-macvlan-routing> router # [   12.683397] dnsmasq-dhcp[544]: DHCPOFFER(upstream) 10.20.0.10 66:6b:70:ed:f9:b0
+vm-test-run-blinking-macvlan-routing> router # [   12.691155] dnsmasq-dhcp[544]: DHCPREQUEST(upstream) 10.20.0.11 66:6b:70:09:4b:80
+vm-test-run-blinking-macvlan-routing> router # [   12.693117] dnsmasq-dhcp[544]: DHCPACK(upstream) 10.20.0.11 66:6b:70:09:4b:80 wan1
+vm-test-run-blinking-macvlan-routing> router # [   12.704099] dnsmasq-dhcp[544]: DHCPREQUEST(upstream) 10.20.0.10 66:6b:70:ed:f9:b0
+vm-test-run-blinking-macvlan-routing> router # [   12.705540] dnsmasq-dhcp[544]: DHCPACK(upstream) 10.20.0.10 66:6b:70:ed:f9:b0 wan0
+vm-test-run-blinking-macvlan-routing> router # [   12.739558] container wan1[596]:          Starting Hostname Service...
+vm-test-run-blinking-macvlan-routing> router # [   12.750441] container wan0[597]:          Starting Hostname Service...
+vm-test-run-blinking-macvlan-routing> router # [   12.773099] container wan0[597]: [  OK  ] Finished Enable Persistent Storage in systemd-networkd.
+vm-test-run-blinking-macvlan-routing> router # [   12.776215] container wan1[596]: [  OK  ] Finished Permit User Sessions.
+vm-test-run-blinking-macvlan-routing> router # [   12.781542] container wan0[597]: [  OK  ] Finished Permit User Sessions.
+vm-test-run-blinking-macvlan-routing> router # [   12.786184] container wan1[596]: [  OK  ] Started Console Getty.
+vm-test-run-blinking-macvlan-routing> router # [   12.788700] container wan0[597]: [  OK  ] Started Console Getty.
+vm-test-run-blinking-macvlan-routing> router # [   12.789692] container wan1[596]: [  OK  ] Reached target Login Prompts.
+vm-test-run-blinking-macvlan-routing> router # [   12.792624] container wan0[597]: [  OK  ] Reached target Login Prompts.
+vm-test-run-blinking-macvlan-routing> router # [   12.793429] container wan1[596]: [  OK  ] Reached target Multi-User System.
+vm-test-run-blinking-macvlan-routing> router # [   12.794939] container wan0[597]: [  OK  ] Reached target Multi-User System.
+vm-test-run-blinking-macvlan-routing> router # [   12.798070] container wan1[596]: [  OK  ] Finished Enable Persistent Storage in systemd-networkd.
+vm-test-run-blinking-macvlan-routing> router # [   12.897257] container wan1[596]: [  OK  ] Started Hostname Service.
+vm-test-run-blinking-macvlan-routing> router # [   12.899684] container wan0[597]: [  OK  ] Started Hostname Service.
+vm-test-run-blinking-macvlan-routing> router # [   12.969603] container wan1[1025]: Bring veth-wan1 up
+vm-test-run-blinking-macvlan-routing> router # [   12.972875] container wan0[1024]: Bring veth-wan0 up
+vm-test-run-blinking-macvlan-routing> router # [   12.985449] systemd[1]: Started Container 'wan0'.
+vm-test-run-blinking-macvlan-routing> router # [   12.987826] systemd[1]: Started Container 'wan1'.
+vm-test-run-blinking-macvlan-routing> [13.73s] router: (finished: must succeed: systemctl start container@wan0 container@wan1, in 3.85 seconds)
+vm-test-run-blinking-macvlan-routing> [13.73s] router: must succeed: machinectl show wan0 -p Leader --value
+vm-test-run-blinking-macvlan-routing> [13.75s] router: (finished: must succeed: machinectl show wan0 -p Leader --value, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> ??? Warning (UserWarning): wait_until_succeeds(): passing a bare int/float as a duration is deprecated. Use datetime.timedelta instead.
+vm-test-run-blinking-macvlan-routing>     File "/nix/store/qira6ng41sywc56q5wv5pb6jv76kvf22-nixos-test-driver-1.1/lib/python3.14/site-packages/test_driver/duration.py", line 61
+vm-test-run-blinking-macvlan-routing> [13.75s] router: waiting for success: nsenter -t 621 -n ip -4 addr show wan | grep 10.20.0.10
+vm-test-run-blinking-macvlan-routing> ??? Warning (UserWarning): execute(): passing a bare int/float as a duration is deprecated. Use datetime.timedelta instead.
+vm-test-run-blinking-macvlan-routing>     File "/nix/store/qira6ng41sywc56q5wv5pb6jv76kvf22-nixos-test-driver-1.1/lib/python3.14/site-packages/test_driver/duration.py", line 61
+vm-test-run-blinking-macvlan-routing> [13.78s] router: (finished: waiting for success: nsenter -t 621 -n ip -4 addr show wan | grep 10.20.0.10, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [13.78s] router: must succeed: machinectl show wan1 -p Leader --value
+vm-test-run-blinking-macvlan-routing> [13.79s] router: (finished: must succeed: machinectl show wan1 -p Leader --value, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [13.79s] router: waiting for success: nsenter -t 622 -n ip -4 addr show wan | grep 10.20.0.11
+vm-test-run-blinking-macvlan-routing> [13.82s] router: (finished: waiting for success: nsenter -t 622 -n ip -4 addr show wan | grep 10.20.0.11, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [13.82s] router: must succeed: ip netns exec client dhcpcd -4 -1 -C resolv.conf -t 30 client0
+vm-test-run-blinking-macvlan-routing> router # read_config: /etc/dhcpcd.conf: No such file or directory
+vm-test-run-blinking-macvlan-routing> router # [   13.117483] dhcpcd[1048]: read_config: /etc/dhcpcd.conf: No such file or directory
+vm-test-run-blinking-macvlan-routing> router # dhcpcd-10.3.2 starting
+vm-test-run-blinking-macvlan-routing> router # network namespace: client
+vm-test-run-blinking-macvlan-routing> router # [   13.121311] dhcpcd[1048]: dhcpcd-10.3.2 starting
+vm-test-run-blinking-macvlan-routing> router # [   13.123557] dhcpcd[1052]: network namespace: client
+vm-test-run-blinking-macvlan-routing> router # [   13.205206] 8021q: 802.1Q VLAN Support v1.8
+vm-test-run-blinking-macvlan-routing> router # [   13.205897] 8021q: adding VLAN 0 to HW filter on device eth0
+vm-test-run-blinking-macvlan-routing> router # [   13.206663] 8021q: adding VLAN 0 to HW filter on device eth1
+vm-test-run-blinking-macvlan-routing> router # read_config: /etc/dhcpcd.conf: No such file or directory
+vm-test-run-blinking-macvlan-routing> router # [   13.139885] dhcpcd[1052]: read_config: /etc/dhcpcd.conf: No such file or directory
+vm-test-run-blinking-macvlan-routing> router # [   13.977757] container wan0[597]: 
+vm-test-run-blinking-macvlan-routing> router # [   13.981943] container wan0[597]:
+vm-test-run-blinking-macvlan-routing> router # [   13.983139] container wan0[597]: <<< Welcome to NixOS 26.11pre-git (x86_64) - console >>>
+vm-test-run-blinking-macvlan-routing> router # [   13.985479] container wan0[597]:
+vm-test-run-blinking-macvlan-routing> router # [   13.986364] container wan0[597]:
+vm-test-run-blinking-macvlan-routing> router # [   13.987831] container wan1[596]: 
+vm-test-run-blinking-macvlan-routing> router # [   13.992716] container wan1[596]:
+vm-test-run-blinking-macvlan-routing> router # [   13.993801] container wan1[596]: <<< Welcome to NixOS 26.11pre-git (x86_64) - console >>>
+vm-test-run-blinking-macvlan-routing> router # [   13.995714] container wan1[596]:
+vm-test-run-blinking-macvlan-routing> router # [   13.996552] container wan1[596]:
+vm-test-run-blinking-macvlan-routing> router # client0: soliciting a DHCP lease
+vm-test-run-blinking-macvlan-routing> router # [   14.681308] dhcpcd[1052]: client0: soliciting a DHCP lease
+vm-test-run-blinking-macvlan-routing> router # client0: offered 192.168.64.20 from 192.168.64.1
+vm-test-run-blinking-macvlan-routing> router # [   14.683987] dhcpcd[1052]: client0: offered 192.168.64.20 from 192.168.64.1
+vm-test-run-blinking-macvlan-routing> router # client0: probing address 192.168.64.20/24
+vm-test-run-blinking-macvlan-routing> router # [   14.687587] dhcpcd[1052]: client0: probing address 192.168.64.20/24
+vm-test-run-blinking-macvlan-routing> router # client0: leased 192.168.64.20 for 3600 seconds
+vm-test-run-blinking-macvlan-routing> router # client0: adding route to 192.168.64.0/24
+vm-test-run-blinking-macvlan-routing> router # client0: adding default route via 192.168.64.1
+vm-test-run-blinking-macvlan-routing> router # [   19.979639] dhcpcd[1052]: client0: leased 192.168.64.20 for 3600 seconds
+vm-test-run-blinking-macvlan-routing> router # [   19.982934] dhcpcd[1052]: client0: adding route to 192.168.64.0/24
+vm-test-run-blinking-macvlan-routing> router # [   19.984688] dhcpcd[1052]: client0: adding default route via 192.168.64.1
+vm-test-run-blinking-macvlan-routing> router # exiting due to oneshot
+vm-test-run-blinking-macvlan-routing> router # [   19.993860] dhcpcd[1052]: exiting due to oneshot
+vm-test-run-blinking-macvlan-routing> router # dhcpcd exited
+vm-test-run-blinking-macvlan-routing> router # [   19.998844] dhcpcd[1052]: dhcpcd exited
+vm-test-run-blinking-macvlan-routing> [20.73s] router: (finished: must succeed: ip netns exec client dhcpcd -4 -1 -C resolv.conf -t 30 client0, in 6.91 seconds)
+vm-test-run-blinking-macvlan-routing> [20.73s] router: must succeed: ip netns exec client ip -4 addr show client0 | grep 192.168.64.
+vm-test-run-blinking-macvlan-routing> [20.76s] router: (finished: must succeed: ip netns exec client ip -4 addr show client0 | grep 192.168.64., in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [20.76s] router: must succeed: ip netns exec client ip route | grep 'default via 192.168.64.1'
+vm-test-run-blinking-macvlan-routing> [20.79s] router: (finished: must succeed: ip netns exec client ip route | grep 'default via 192.168.64.1', in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [20.79s] router: must succeed: ip route get 198.18.0.1 from 192.168.64.20 iif lan0 mark 1 | grep 'via 192.168.251.1'
+vm-test-run-blinking-macvlan-routing> [20.83s] router: (finished: must succeed: ip route get 198.18.0.1 from 192.168.64.20 iif lan0 mark 1 | grep 'via 192.168.251.1', in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [20.83s] router: must succeed: ip route get 198.18.0.1 from 192.168.64.20 iif lan0 mark 2 | grep 'via 192.168.251.3'
+vm-test-run-blinking-macvlan-routing> [20.85s] router: (finished: must succeed: ip route get 198.18.0.1 from 192.168.64.20 iif lan0 mark 2 | grep 'via 192.168.251.3', in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [20.85s] router: must succeed: nft list table inet multiwan | grep jhash
+vm-test-run-blinking-macvlan-routing> [20.88s] router: (finished: must succeed: nft list table inet multiwan | grep jhash, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [20.88s] router: must succeed: ip netns exec client ping -c 3 -W 3 198.18.0.1
+vm-test-run-blinking-macvlan-routing> [22.95s] router: (finished: must succeed: ip netns exec client ping -c 3 -W 3 198.18.0.1, in 2.06 seconds)
+vm-test-run-blinking-macvlan-routing> [22.95s] router: must succeed: nft insert rule inet multiwan prerouting iifname \"lan0\" ct mark set 1 meta mark set 1 return
+vm-test-run-blinking-macvlan-routing> [22.97s] router: (finished: must succeed: nft insert rule inet multiwan prerouting iifname \"lan0\" ct mark set 1 meta mark set 1 return, in 0.02 seconds)
+vm-test-run-blinking-macvlan-routing> [22.97s] router: must succeed: ip netns exec client ping -c 2 -W 3 198.18.0.1
+vm-test-run-blinking-macvlan-routing> [24.04s] router: (finished: must succeed: ip netns exec client ping -c 2 -W 3 198.18.0.1, in 1.07 seconds)
+vm-test-run-blinking-macvlan-routing> [24.04s] router: must succeed: nft insert rule inet multiwan prerouting iifname \"lan0\" ct mark set 2 meta mark set 2 return
+vm-test-run-blinking-macvlan-routing> [24.07s] router: (finished: must succeed: nft insert rule inet multiwan prerouting iifname \"lan0\" ct mark set 2 meta mark set 2 return, in 0.03 seconds)
+vm-test-run-blinking-macvlan-routing> [24.07s] router: must succeed: ip netns exec client ping -c 2 -W 3 198.18.0.1
+vm-test-run-blinking-macvlan-routing> [25.12s] router: (finished: must succeed: ip netns exec client ping -c 2 -W 3 198.18.0.1, in 1.06 seconds)
+vm-test-run-blinking-macvlan-routing> [25.12s] router: must succeed: test -f /etc/blinking-router/manifest.json
+vm-test-run-blinking-macvlan-routing> [25.14s] router: (finished: must succeed: test -f /etc/blinking-router/manifest.json, in 0.01 seconds)
+vm-test-run-blinking-macvlan-routing> [25.14s] (finished: run the VM test script, in 25.13 seconds)
+vm-test-run-blinking-macvlan-routing> [25.35s] test script finished in 25.35s
+vm-test-run-blinking-macvlan-routing> [25.35s] cleanup
+vm-test-run-blinking-macvlan-routing> [25.35s] kill QemuMachine (pid 46)
+vm-test-run-blinking-macvlan-routing> router # qemu-system-x86_64: terminating on signal 15 from pid 46 (/nix/store/bya4ansy58az5133kryqp2cvrxbnz8qy-python3-3.14.10/bin/python3.14)
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:54Z INFO  virtiofsd] Client disconnected, shutting down
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:54Z INFO  virtiofsd] Client disconnected, shutting down
+vm-test-run-blinking-macvlan-routing> router # [2026-11-17T03:03:54Z INFO  virtiofsd] Client disconnected, shutting down
+vm-test-run-blinking-macvlan-routing> [25.57s] (finished: cleanup, in 0.21 seconds)

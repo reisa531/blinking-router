@@ -1,0 +1,34 @@
+this derivation will be built:
+  /nix/store/c5fbdjfbshixwafm2fyx7ilp16bzdd6z-blinking-tests.drv
+building '/nix/store/c5fbdjfbshixwafm2fyx7ilp16bzdd6z-blinking-tests.drv'...
+blinking-tests> test_cross_origin_rejected (test_core.APITests.test_cross_origin_rejected) ... /nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+blinking-tests>   _warnings.warn(self.warn_message, ResourceWarning)
+blinking-tests> ok
+blinking-tests> test_dns_rebinding_rejected (test_core.APITests.test_dns_rebinding_rejected) ... ok
+blinking-tests> test_export_and_no_apply (test_core.APITests.test_export_and_no_apply) ... /nix/store/7nwih8b4lkh52dihzzig1v1pd0gqxnzg-python3-3.14.10-env/lib/python3.14/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>
+blinking-tests>   _warnings.warn(self.warn_message, ResourceWarning)
+blinking-tests> ok
+blinking-tests> test_no_secret_in_api (test_core.APITests.test_no_secret_in_api) ... ok
+blinking-tests> test_roundtrip_and_persistence (test_core.APITests.test_roundtrip_and_persistence) ... ok
+blinking-tests> test_account_reference_and_enable (test_core.ConfigurationTests.test_account_reference_and_enable) ... ok
+blinking-tests> test_address_pool_and_reservation (test_core.ConfigurationTests.test_address_pool_and_reservation) ... ok
+blinking-tests> test_existing_topology (test_core.ConfigurationTests.test_existing_topology) ... ok
+blinking-tests> test_nix_injection_rejected (test_core.ConfigurationTests.test_nix_injection_rejected) ... ok
+blinking-tests> test_plaintext_password_not_config (test_core.ConfigurationTests.test_plaintext_password_not_config) ... ok
+blinking-tests> test_reject_duplicate_mac (test_core.ConfigurationTests.test_reject_duplicate_mac) ... ok
+blinking-tests> test_reject_multicast_mac (test_core.ConfigurationTests.test_reject_multicast_mac) ... ok
+blinking-tests> test_removed_slot_does_not_renumber (test_core.ConfigurationTests.test_removed_slot_does_not_renumber) ... ok
+blinking-tests> test_invalid_credentials_pause (test_core.HealthTests.test_invalid_credentials_pause) ... ok
+blinking-tests> test_login_failure_keeps_specific_state (test_core.HealthTests.test_login_failure_keeps_specific_state) ... ok
+blinking-tests> test_network_failure_does_not_send_credentials (test_core.HealthTests.test_network_failure_does_not_send_credentials) ... ok
+blinking-tests> test_portal_login_requires_post_login_probe (test_core.HealthTests.test_portal_login_requires_post_login_probe) ... ok
+blinking-tests> test_recovery_resets_backoff (test_core.HealthTests.test_recovery_resets_backoff) ... ok
+blinking-tests> test_threshold_and_cap (test_core.HealthTests.test_threshold_and_cap) ... ok
+blinking-tests> test_deleted_account_removes_secret (test_core.StoreTests.test_deleted_account_removes_secret) ... ok
+blinking-tests> test_password_encryption_and_export (test_core.StoreTests.test_password_encryption_and_export) ... ok
+blinking-tests> test_stale_save (test_core.StoreTests.test_stale_save) ... ok
+blinking-tests> 
+blinking-tests> ----------------------------------------------------------------------
+blinking-tests> Ran 22 tests in 2.652s
+blinking-tests> 
+blinking-tests> OK

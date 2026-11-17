@@ -1,0 +1,4 @@
+.state/
+result*
+__pycache__/
+*.pyc

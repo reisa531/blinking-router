@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "revision": 6,
+  "network": {
+    "parent": "enp1s0f1",
+    "lan": "enp7s0f0",
+    "address": "192.168.64.1/24",
+    "transit": "192.168.251.0/24"
+  },
+  "keepalive": {
+    "interval": 60,
+    "timeout": 15,
+    "retryMax": 900,
+    "failureThreshold": 3
+  },
+  "accounts": [],
+  "wans": [
+    {
+      "id": "wan0",
+      "slot": 0,
+      "name": "校园网出口 01",
+      "mac": "66:6b:70:ed:f9:b0",
+      "enabled": true,
+      "account": "",
+      "keepalive": false
+    },
+    {
+      "id": "wan1",
+      "slot": 1,
+      "name": "校园网出口 02",
+      "mac": "66:6b:70:09:4b:80",
+      "enabled": true,
+      "account": "",
+      "keepalive": false
+    }
+  ],
+  "dhcp": {
+    "enabled": true,
+    "start": 2,
+    "size": 253,
+    "leaseSeconds": 3600,
+    "dns": [
+      "10.15.44.11"
+    ],
+    "reservations": []
+  }
+}

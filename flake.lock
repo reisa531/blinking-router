@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "net-loginer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1778655733,
+        "narHash": "sha256-qx2MTTLSW08TMQUqDcXUFqdK6MFfal3HW7vmTaTHq8Y=",
+        "owner": "ShanghaitechGeekPie",
+        "repo": "net-loginer",
+        "rev": "3c02725de5964c41870335b5507356b75ee3a0b8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ShanghaitechGeekPie",
+        "repo": "net-loginer",
+        "rev": "3c02725de5964c41870335b5507356b75ee3a0b8",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794537146,
+        "narHash": "sha256-Wpz/7x/YWnDIBu7yj6ixe8j6fIMsidd9Y+o1PqPF3iM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d5cc6833999746cffdfe0598f7bc801a57b887a9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "net-loginer": "net-loginer",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

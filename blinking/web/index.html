@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#edf0f5"><title>Blinking · 网络控制台</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+<div class="shell">
+<aside class="sidebar glass">
+<a class="brand" href="#overview"><span class="brand-icon">b<span></span></span><span>blinking<small>NETWORK STUDIO</small></span></a>
+<div class="workspace"><span class="status-dot"></span><span>本地工作区<small>配置与测试</small></span><span class="keycap">⌘</span></div>
+<div class="nav-label">网络管理</div>
+<nav aria-label="主要导航">
+<button data-page="overview" class="nav active"><span>◈</span>网络概览</button>
+<button data-page="wans" class="nav"><span>⇄</span>WAN 与分流<span class="nav-count" id="wan-count">2</span></button>
+<button data-page="accounts" class="nav"><span>◎</span>校园网认证</button>
+<button data-page="dhcp" class="nav"><span>⊞</span>DHCP 与设备</button>
+<button data-page="services" class="nav"><span>▤</span>服务状态</button>
+</nav>
+<div class="nav-label">工作区</div>
+<nav aria-label="工作区导航"><button data-page="review" class="nav"><span>↗</span>配置审阅</button></nav>
+<div class="side-bottom"><div class="small-orb">✳</div><strong>每一条连接，都有归处。</strong><p>独立出口 · 声明式配置</p><div class="version">BLINKING OS <span>LOCAL / 0.1</span></div></div>
+</aside>
+<main>
+<header class="topbar"><div class="breadcrumbs">工作区 <span>/</span> <strong id="crumb">网络概览</strong></div><div class="top-actions"><span class="pill"><span class="status-dot blue"></span>本地开发</span><button id="refresh" class="icon-button" aria-label="刷新配置">↻</button><span class="avatar">B</span></div></header>
+<div class="page-header"><div><div class="eyebrow" id="eyebrow">YOUR NETWORK, AT A GLANCE</div><h1 id="title">让连接，清晰可见<span class="title-dot">.</span></h1><p id="subtitle">管理校园网出口、认证与地址分配，一切井然有序。</p></div><button id="save" class="primary">保存配置 <span>↗</span></button></div>
+<div class="notice"><span>◉</span><p>本地开发模式：修改仅保存到本机。服务器状态未采集，现有网络不会受到影响。</p><span id="revision">REV 0</span></div>
+<div id="content"></div>
+<footer><span><span class="status-dot blue"></span> 声明式管理，让变更有迹可循</span><span>Aether-inspired · Built with Nix</span></footer>
+</main></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="confirm-dialog"><form method="dialog"><h2>删除 WAN 出口？</h2><p id="confirm-description"></p><div class="actions"><button value="cancel">取消</button><button class="danger" value="delete">删除出口</button></div></form></dialog>
+</body></html>
